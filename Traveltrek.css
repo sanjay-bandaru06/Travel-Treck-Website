@@ -1,0 +1,2257 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: rgb(221, 220, 220); */
+   /* background-image: url("https://www.ppt-backgrounds.net/thumbs/gray-template-slides-backgrounds.jpg"); */
+   /* background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-small-fresh-spring-green-leaf-h5-background-picture-image_1068822.jpg"); */
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   /* background:linear-gradient(to bottom,#758BFD 10%,#AEB8FE,#F1F2F6,white) */
+   /* background-color: rgb(225, 235, 244); */
+}
+.location{
+   /* height: 180%; */
+   width: 80%;
+   /* background-color: antiquewhite; */
+}
+.title{
+   height: 15%;
+   width: 100%;
+   /* background-color: black; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.title1{
+   height: 80%;
+   width: fit-content;
+   /* background-color: blue; */
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.4egi3zyvVxYGJmcIpC8tIAHaEH&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 100px;
+   /* color: rgb(5, 5, 104); */
+   color: transparent;
+   background-clip: text;
+   font-family:luminari, fanatasy;
+   /* text-shadow: 0px 0px 15px lightgreen; */
+}
+.title2{
+   /* height: 80%; */
+   width: 100%;
+   /* background-color: blueviolet; */
+}
+.food{
+   height: 53%;
+   width: 100%;
+   /* background-color: white; */
+   backdrop-filter: blur(10px);
+   border-radius: 15px;
+}
+
+.resort{
+   height: 53%;
+   width: 100%;
+   /* background-color: white; */
+   backdrop-filter: blur(10px);
+   border-radius: 15px;
+}
+.places{
+   height: 53%;
+   width: 100%;
+   /* background-color: white; */
+   backdrop-filter: blur(10px);
+   border-radius: 15px;
+}
+.food1{
+   height: 10%;
+   width: 100%;
+   padding-left:10px;
+   padding-top: 10px;
+   /* background-color:burlywood; */
+   font-size: 35px;
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+   /* color: lightskyblue; */
+   font-family: Arial, Helvetica, sans-serif;
+}
+.food2{
+   height: 90%;
+   width: 100%;
+   /* background-color: rgb(3, 135, 250); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.food21{
+   height: 90%;
+   width: 90%;
+   /* border: 2px solid black; */
+}
+.subfood{
+   height: 92%;
+   width: 40%;
+   /* background-color: rgb(3, 135, 250); */
+   /* border: 2px solid black; */
+   /* display:flex;
+   justify-content: center;
+   align-items: center; */
+   padding:13px;
+   border-radius: 10px;
+  
+}
+.prev{
+   position:absolute;
+   top: 50%;
+   left:-4%;
+   height: 27px;
+   width:27px;
+   border:1px solid white;
+   border-radius: 50%;
+   background-color: rgb(5, 5, 104);
+   color: white;
+   /* background-color: transparent; */
+}
+/* prevArrow{
+   background-color: aqua;
+} */
+.next{
+   position: absolute;
+   top: 50%;
+   right: -4%;
+   height: 27px;
+   width:27px;
+   border:1px solid white;
+   border-radius: 50%;
+   background-color: rgb(5, 5, 104);
+   color: white;
+}
+.sub{
+   height:98%;
+   width: 98%;
+   /* background-color: rgb(244, 12, 12); */
+   display: flex;
+   flex-wrap: wrap;
+   box-shadow: 2px 2px 15px black;
+   border-radius: 10px;
+}
+.picture{
+   height:72%;
+   width:100%;
+   /* background-color: antiquewhite; */
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+#p1vi{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.Il2tOVs-BEalG48FIU0n8gHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+/* #p1:hover{
+   transform: scale(1.02);
+} */
+#p2vi
+{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.LIb-HR1DMaaynPuf5Zq7cwHaHO&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3vi{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.FerhLdrcw35s7ewbljB9NAHaGC&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4vi{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.3-ie8hDx0UHPgRkCzwJpGQHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.sub:hover{
+   .picture{
+       transform: scale(1.04);
+   }
+}
+.matter{
+   height:28%;
+   width:100%;
+   background-color:white;
+   font-family: Arial, Helvetica, sans-serif;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+}
+.matter1{
+   height: fit-content;
+   width: 80%;
+   margin-top: 10px;
+   margin-left: 3%;
+   /* background-color:brown; */
+   display: flex;
+   align-items: center;
+   font-size: 19px;
+   text-decoration:uppercase;
+}
+.rating{
+   height: 30%;
+   width: 70%;
+   /* background-color: white; */
+   display: flex;
+}
+.star{
+   height: 100%;
+   width: 70%;
+   /* background-color: antiquewhite; */
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.st1{
+   height: 100%;
+   width: 15%;
+   /* background-color: rgb(2, 136, 253); */
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   color: yellow;
+}
+.rate{
+   height: 100%;
+   width: 30%;
+   /* background-color: aquamarine; */
+   display: flex;
+   align-items: center;
+   font-size: 17px;
+   padding-left: 3%;
+}
+.resort{
+   height: 53%;
+   width: 100%;
+   /* background-color: rgb(113, 147, 51); */
+}
+#p5vi{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.sZgm_Psx8zCJ7Youvt3SMgHaEj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6vi{
+   background-image: url("https://tse2.explicit.bing.net/th?id=OIP.xT6d6k2qOLjJd8jUpKuGcAHaEv&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7vi{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.7L2xmA18uFnSY1HZza12NgHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8vi{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.Wvnk0s2fmObpPPWaVzv4cAHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.places{
+   height: 53%;
+   width: 100%;
+   /* background-color: aquamarine; */
+}
+
+#p9vi{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.UfpuEa4-FtJcSOLuyt-R2gHaEL&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10vi{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.IrcZzh3wC-2a4RO3yq_fbQAAAA&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11vi{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.8rGcYoAXAMrq0uTLBSv8EAHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12vi{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.44IS8pejt6G3DZkTY-tdlwAAAA&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.vide{
+   height: fit-content;
+   width: fit-content;
+   /* background-color: antiquewhite; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 6%;
+   flex-wrap: wrap;
+}
+.v1{
+   height: 310px;
+   width: 582px;
+   /* background-color: aqua; */
+}
+
+.flip{
+   height:310px;
+   width:582px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position:relative;
+   /* background-color: rgb(26, 25, 25); */
+   perspective:1000px;
+   transition: all 2s;
+}
+.v2{
+   height: 310px;
+   width: 582px;
+   /* background-color: aquamarine; */
+   top: 0;
+   backface-visibility: hidden;
+   display: flex;
+   transform-style: preserve-3d;
+   transform: rotateY(0deg);
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   transition: all 2s;
+   z-index: 1;
+}
+.back{
+   top:0;
+   height: 310px;
+   width: 582px;
+   transform-style: preserve-3d;
+   transform: rotateY(180deg);
+   /* background-color: rgb(255, 246, 127); */
+   backface-visibility: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   transition: all 2s;
+  
+}
+.flip:hover{
+   .v2{
+       transform: rotateY(-180deg);
+   }
+   .back{
+       transform: rotateY(0deg);
+   }
+}
+#mapvi{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.jcGuUIR85sEWLTLycsVq2QHaEl&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+/* .v21{
+   height: 70%;
+   width: 100%;
+   background-color: bisque;
+}
+.v22{
+   height: 30%;
+   width: 100%;
+   background-color: blue;
+} */
+.v211{
+   height: 82%;
+   width: 80%;
+  /* background-color: rgb(225, 37, 37); */
+}
+.v21{
+   height: fit-content;
+   width: 100%;
+   /* background-color:rgb(219, 32, 32); */
+   margin-bottom: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.v22{
+   height: 18%;
+   width: 30%;
+   /* background-color: blue; */
+   margin-left: 60%;
+}
+.button {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 10px;
+   background-color: #5c64c0;
+   border-radius: 30px;
+   color:white;
+   font-weight: 600;
+   border: none;
+   position: relative;
+   cursor: pointer;
+   transition-duration: .2s;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+   padding-left: 8px;
+   transition-duration: .5s;
+ }
+ 
+ .svgIcon {
+   height: 25px;
+   transition-duration: 1.5s;
+ }
+ 
+ .bell path {
+   fill: rgb(19, 19, 19);
+ }
+ 
+ .button:hover {
+   background-color:lightgreen;
+   transition-duration: .5s;
+ }
+ 
+ .button:active {
+   transform: scale(0.97);
+   transition-duration: .2s;
+ }
+ 
+ .button:hover .svgIcon {
+   transform: rotate(250deg);
+   transition-duration: 1.5s;
+ }
+ 
+ 
+@media screen and (max-width:900px){
+   .matter1{
+       width: 90%;
+       font-size: 13px;
+   }
+   .st1{
+       font-size: 14px;
+   }
+   .rate{
+       font-size: 13px;
+   }
+   .title1{
+       font-size: 70px;
+   }
+   /* .title{
+      font-size: 15px;
+   } */
+   .location{
+      /* width: fit-content; */
+       /* width: 100%; */
+       /* background-color: aqua; */
+   }
+}
+@media screen and (max-width:768px){
+   /* .location{
+       width: 100%;
+   } */
+   .matter1{
+      font-size: 20px;
+   }
+   .st1{
+      font-size: 17px;
+   }
+   .vide{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       height:fit-content;
+       width:fit-content;
+       /* background-color: #5c64c0; */
+   }
+   .v1{
+      background-color: aqua;
+      height:300px;
+      width:500px;
+
+   }
+   .flip{
+      height:300px;
+      width:500px;
+    }
+    .back{
+      height:300px;
+      width:500px;
+    }
+    .v2{
+      height:300px;
+      width:500px;
+    }
+}
+@media screen and (max-width:600px){
+   .title1{
+      font-size: 60px;
+      /* height:fit-content */
+  }
+  .vide{
+   height: fit-content;
+   width:fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+  }
+  .v1{
+   background-color: aqua;
+   height:300px;
+   width:400px;
+ }
+ .flip{
+   height:300px;
+   width:400px;
+ }
+ .back{
+   height:300px;
+   width:400px;
+ }
+ .v2{
+   height:300px;
+   width:400px;
+ }
+  /* .v211{
+   font-size:15px;
+   height:fit-content;
+   width:fit-content;
+   background-color: aqua;
+ }  */
+ .v21{
+   font-size:15px;
+   /* height: fit-content;
+   width: fit-content; */
+ }
+}
+
+/* srinagar */
+#p1si{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.JOlLWO2Z2SSNbGRdSCydkQHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2si{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.s9YybzV0HPr1NiqI0Oi9gwHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3si{
+   background-image: url("https://im.whatshot.in/img/2018/Aug/kashmir-cropped-1533732603.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4si{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.cs5mMD6LcJdJN4fsLKP66wHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5si{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.IgA8FjEVnywxsyU8VDTsdgHaGb&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6si{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.R3n-MRCzhjO21yv_xIw5mQHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7si{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.Oz12xP10pjXAF9xz_IIRAQHaEX&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8si{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.n8VUmqS-E5Byi0Mc-xc0zgAAAA&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9si{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.1x45FfqZO4GPoF7ShSAP8gHaD0&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10si{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.JnSp_8FzwcYjdrDqjaxuTAHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11si{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.7xWJ18vLEznJGKol_83VogAAAA&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12si{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.oJd90HhCE3v6jtrBKVF9ewHaFW&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapsi{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.Km9j2b_VOjZj3fUxTPm_xwHaEl&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+/* jammu */
+#p1jam{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.JOlLWO2Z2SSNbGRdSCydkQHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2jam{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.s9YybzV0HPr1NiqI0Oi9gwHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3jam{
+   background-image: url("https://im.whatshot.in/img/2018/Aug/kashmir-cropped-1533732603.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4jam{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.cs5mMD6LcJdJN4fsLKP66wHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5jam{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.yHMOkKWPFk89DOH-AgqchQHaHa&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6jam{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.hsclmLqapRdTJtLKAdV_lgHaHa&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7jam{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.7m-p2xP3G2pBzwDt9uOUIQHaEb&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8jam{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.8kgGhA158PftqNLP9mvRgQHaDf&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9jam{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.W4yds1M_MCV0G4hFwOF8HwHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10jam{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.JnSp_8FzwcYjdrDqjaxuTAHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11jam{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.6hF3Jl2Y_CFQexZlnKHT-wHaEo&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12jam{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.5Nk0uGCseANWeEO_iLtcOAHaDI&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapjam{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.rQShzZrVIXa9JWbfqt7ZiQHaEl&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+
+/* gulmarg */
+#p1gul{  
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.19CRROfwyB27uhzNcqtveQHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2gul{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.Npv0UfqFDV3tMZRd7DgeTAHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3gul{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.FQHDWYwK2pmyKWhCmr9nZAHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4gul{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.LqdMIR3yMkeRKLPWYG_oNQHaEJ&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5gul{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.YwdvTnhkpMDFvZOmR13d5QHaHK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6gul{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.-1x3eO2hnCqd7VjKOe9tRgHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7gul{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.J_-44gl-WXEZq2lVu1T9iwHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8gul{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.7Fq1wH_Xj-UcncirIud0JAHaDj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9gul{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.sTkg4MUuKblZowrD4zDzggHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10gul{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.qv7q7Q1JJBX1EohY-F3yWQHaE-&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11gul{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.EMl_8A2x_alrgUzNz7u7mgHaEg&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12gul{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.KgHS1UrMRxOQBpmjoWbxpwHaEO&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapgul{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.3oxaH18_Yq5mwUD1FiOoUgHaEl&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+/* ladakh */
+#p1lad{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.6VdAYi9EtJUV2vr1IEG4eQHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2lad{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.mNK2Co8YeT3XSmRKJKJTCQHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3lad{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.UVCO4_vTP9ztZpSYOkr0uAHaD5&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4lad{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.GnU5s5ydS9AVELKCb_i4EQHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5lad{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP._tgM80_g7K1ymkC1gpvxZAHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6lad{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.puqzwz6cRkAB4nStbRCE2AHaEo&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7lad{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.r2pPagyad703DvzokukjJQHaD3&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8lad{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.fgoeUGW5oS1Tz9ZJQpB8UAHaE-&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9lad{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.cNycEdorP3I6m7m74FDmIwAAAA&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10lad{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.bC3WFC-eAk1VKg38PobT_gHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11lad{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.1yN-VWi4N_FwccJgw_V70wHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12lad{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.ub21JDDk_UJBk4sT3cyY8gHaEb&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#maplad{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.SyUmP6fmVW6LHtYwK_ybGwHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+
+/* Mumbai */
+
+#p1mum{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.DTXfmmagnoAxRcUEWdajMwHaEo&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2mum{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.AI8nsIJnaf2fMyLN9Z-ZGgHaEQ&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3mum{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.s6eknYmfviQwIoyi6EtpJAHaEq&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4mum{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.585zgRNIAlLMOuiGn1jr6QHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5mum{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.kpzl9Ji_Vgut-bD5HaoScwHaFo&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6mum{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.qMChilM5OczCJYBeQiPckwHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7mum{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.e33imJzMd52w5_x38eH6awHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8mum{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.Arhj7bzbmGGp20G89Mi7xwHaHa&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9mum{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.4aVcht3TZRVwEAlap_dxoAHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10mum{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.rTwuARzR8LXCvp3C56AVnwHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11mum{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.MmasI39KpEmlkFto71ovngHaEU&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12mum{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.ub21JDDk_UJBk4sT3cyY8gHaEb&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapmum{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.ApY_zHEw_qyc97Xb0l1X1QHaEl&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+
+
+/* pune */
+
+#p1P{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.STEtcRKl3_qP7CX_Q0XBxAHaE-&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2P{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.3GJBi9scxFl3RziMKDoIbQHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3P{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.lQ_0KprszPlLon1xAuYiVAHaEo&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4P{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.czqevT6yaeFDAW-sFadMSQHaEt&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5P{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.8XGW8U9Gyy66jO_UC-FVPAHaHa&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6P{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.cW1qzkpvbTraJ0u6hpVVeQHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7P{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.uRAbP_ITkBup8GslDHzcmAHaFF&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8P{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.mA3U-SR-HBxoVFAZMs5VjwHaE6&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9P{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.8dV2jF1hEnWobmSfP-iXyAHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10P{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.V1jsqss_6jSPT-HqXRZusQHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11P{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.4QwrPeMOGFfq_RVboBegjwHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12P{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.PoYKiUZ8EAsN6OXYCqb3cgHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapP{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.P9gZmxSS6hCDTP_zcjRRRgHaEl&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+/* aurangabad */
+
+#p1AU{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.IHwrT3n0S_bnkF-gHuVZkwHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2AU{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.k7TgHsok8oJEaAndRkR3CgHaGA&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3AU{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.aD_VC9KebD-R-w1-rN8d6gHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4AU{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.G2x1UXwslFU45pjExFNy-wHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5AU{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.5gdFRjtUT0tPAEwVUiIFiwHaHa&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6AU{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.t1cXxa_oTSkpdqO6H9jRpAHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7AU{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.eNjILk3meNKonwc0oOJcKgHaFP&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8AU{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.x-cGQ18SvYwJ7DomTIzEBQHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9AU{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.Qxq9xxGO4BUNGxClARXkEwHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10AU{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.J17K8YiY0272G3zFGfTBXAHaF7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11AU{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.4UKMb4lWf3Yd5OAoI7ul8QHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12AU{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.f6AdRiD_gZVnLsatn0e_pwHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapAU{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.Z30TBMRX8UtEvfnYNI5nKAHaEl&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+
+/* NAGPUR */
+
+#p1NAG{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.siwl1I5zWyqXU5z4wFOhUAHaDt&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2NAG{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.hSNOyqHqnT9VCkMiCZRD1gHaEo&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3NAG{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.H8eMQrCsQatPWX5PZUs-7AHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4NAG{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.qlxNxPwz02dHKl4EknJGvAHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5NAG{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.L_li3v11dvWkdXnoScfYGAHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6NAG{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.jC9FYwj4ooTHgzBsxqPiZwHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7NAG{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.wMcv06j8CHN053RtgYDMWAHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8NAG{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.e0ciP3S-PJLCYt5iyS4RsAHaHa&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9NAG{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.F2K7TOFW32bVl6fVHoJIzAHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10NAG{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.Z_hCinoP-FJq-R03YwDw2QHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11NAG{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.i-rDwLhLaikAvqbj4ZYKXAHaEb&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12NAG{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.i-rDwLhLaikAvqbj4ZYKXAHaEb&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapNAG{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.qmDi3pXe_cy894CkSYMVGwHaEl&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+} 
+
+
+/* OOTY */
+
+#p1OO{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.UJViuw_10Oelgq3uNboXdgHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2OO{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.WEa-WWIubg9QtRHwnJ3E1gHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3OO{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.lChSDI0-i8H_9H37p1dbtwHaEK&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4OO{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.8ciuXGyuLfLL0GYZOSuJoAHaFO&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5OO{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.Mbco3hrzHTifh9z8gg58cwHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6OO{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.gtPDv4NbwnUZn0FcMjAsIQHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7OO{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.q8qKENLCzItdFXYSzjRLIgHaFj&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8OO{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.3rREdnERmk2BwP7qe5r_3QHaHa&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9OO{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.k5Gdzxi8xoAhO14APS1OFQHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p1OOO{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.kxuoMtv7PEIfVGOs6A5eEQHaE6&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11OO{
+   background-image: url("https://tse2.mm.bing.net/th?id=OIP.CYtJKiKq85S-5Gg6Bd3RlgHaFN&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12OO{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.oamBLedET6CbRxelW3dMAgHaEY&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapOO{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.GMWhCiPiT4K-ZMVZNkwX1AHaE_&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+} 
+
+/* Aruku */
+#p1{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.TJvIsb1tOsFI98x5hhplVQHaE7&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2
+{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.tLaKTpHgZt0OdAlglZFRfAHaEz&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#p3{
+    background-image: url("https://i.ytimg.com/vi/FJ1FwxdLgsU/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#p4{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.xlwki9PTq9eSDOfbnI7b9QHaD4&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#p5{
+   background-image: url("https://assets.traveltriangle.com/blog/wp-content/uploads/2018/08/91.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6{
+   background-image: url("https://arakuresorts.in/assets/images/araku-resorts-11-600x400.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7{
+   background-image: url("https://www.naturesnestaraku.in/images/uploads/50/1626858559Customer-Sent.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8{
+   background-image: url("https://www.postoast.com/wp-content/uploads/2022/08/Ananthagiri-Hills-Araku-Valley-places.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9{
+   background-image: url("https://www.trawell.in/admin/images/upload/025326672Lambasingi-viewpoint.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10{
+   background-image: url("https://www.touristpanda.com/wp-content/uploads/2022/10/Katiki.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11{
+   background-image: url("https://tds.indianeagle.com/wp-content/uploads/2020/10/Borra-Caves.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12{
+   background-image: url("http://2.bp.blogspot.com/-4ShMLfDaB8M/VlA0y-oF6JI/AAAAAAAAAPM/Cejbqzxc0WA/s1600/araku-in-blossom.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#maparu{
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.mi7TUlD_T8iOBU9iBNibQgHaEJ&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+/* PLACES */
+
+
+/* #QUTHUBMINAR */
+#QU9{
+    background-image: url("https://kevinstandagephotography.wordpress.com/wp-content/uploads/2019/04/ksp_3527.jpg?w=819");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#QU10{
+    background-image: url("https://media.istockphoto.com/id/532703419/photo/humayuns-tomb-delhi-india.jpg?s=612x612&w=0&k=20&c=xLOQ5pzw0NJ-TSjhCmDViCygbE92coHOQREtRaYEqyI=");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#QU11{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTakFDUa1mnuTIQn9Y3RAsjDQz9ahj-WWpGaw&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#QU12{
+    background-image: url("https://images.nativeplanet.com/img/2017/02/qutub1-22-1487742569.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* #INDIAGATE */
+#IN9{
+    background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/06/Lodhi-Garden_600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#IN10{
+    background-image: url("https://content3.jdmagicbox.com/comp/delhi/f9/011pxx11.xx11.111111120826.t8f9/catalogue/india-gate-india-gate-delhi-tourist-attraction-1v5815e.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#IN11{
+    background-image: url("https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2016/01/National-Gallery-Modern-Art-New-Delhi-copy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#IN12{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjoN0w-Arg4nCLdKqkpd-QD5XMFJmNoOA9iA&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* #REDFORT */
+#G9{
+    background-image: url("https://cdn.britannica.com/20/189820-050-D650A54D/Red-Fort-Old-Delhi-India.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#G10{
+    background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Jantar-Mantar_1400.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#G11{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCKaaSwcdWRSf201TH031o2tDf5bSEFv67w&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#G12{
+    background-image: url("https://cdn.britannica.com/71/250071-050-929F1562/Rashtrapati-Bhavan-Rajpath-Raisina-Hill-New-Delhi-India.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* MAPS */
+
+
+/* #QUTHUBMINAR */
+#mapsQU{
+    background-image: url("https://images.mapsofworld.com/allwonders/qutub-minar-map.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* #INDIAGATE */
+#mapsIN6{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUf3TzejjTKclr0liPOr7TnJw6Sgo72yddg&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* #REDFORT */
+#maps{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuPDkeyx41IIopSvE6PYpeno6NBXuXdlRtDA&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* FOOD */
+
+/* #QUTHUBMINAR */
+#QU1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDpGqpOUfxWr9yEyfSTak5FopLjcXRvN1ggBRK6KRQ8akbhrx2Xc2L-UtOewz5oYqo2cM&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#QU2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSseGw6VXjCvXWd7x6TuPwxHImGhjtIMtVF8Q&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#QU3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf0MtNWb8DMT19mbjSkn_sa8jzloCKA95OdA&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#QU4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh8TVbyg4dJsvfPiesuz5AoflL9JsF580rLQ&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* #INDIAGATE */
+#IN1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTHtcFRtgPWubvbk-vWEB0N56zxR8Tt8P2wQ&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#IN2{
+    background-image: url("https://pipingpotcurry.com/wp-content/uploads/2022/02/Ragda-Chaat-Recipe.-Piping-Pot-Curry-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#IN3{
+    background-image: url("https://joyfoodsunshine.com/wp-content/uploads/2022/06/chicken-kebabs-recipe-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#IN4{
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/01cf72fa714c88dfe8d77145d6cf1091");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* #REDFORT */
+#G1{
+    background-image: url("https://d4t7t8y8xqo0t.cloudfront.net/app//resized/818X450/restaurant/111062/0.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#G2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxMlF-QIUaPSJKE1dvt_-XUbqcFyL68b7jEA&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#G3{
+    background-image: url("https://i.ytimg.com/vi/QIn46ZY1Bdo/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#G4{
+    background-image: url("https://imgmedia.lbb.in/media/2019/02/5c6a6d1523330e034ec7fa6d_1550478613330.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* #QUTHUBMINAR */
+#QU5{
+    background-image: url("https://imgcld.yatra.com/ytimages/image/upload/t_hotel_yatra_details_desktop/v1496913948/Hotel/New%20Delhi/00009158/1513001-Park_Plaza_Overview_YI5zOZ.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#QU6{
+    background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/73155369.jpg?k=12a9884805382a1bc8421812a19eb5161d14c9b04b2396b6fed686f4566ea6cd&o=&hp=1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#QU7{
+    background-image: url("https://cdn0.weddingwire.in/vendor/9911/3_2/960/jpg/crowne-plaza-okhla-13_15_39911-1554984482.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#QU8{
+    background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/557377969.jpg?k=a969182100af943d89fb0e9956269227016f974fbf015abb7af4ddc785b5f2e5&o=&hp=1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* #INDIAGATE */
+#IN5{
+    background-image: url("https://www.bharatonline.com/hotels/hotel_master_img/160_a.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#IN6{
+    background-image: url("https://www.theleela.com/prod/content/assets/styles/tl_503_360_webp/public/2021-09/Exterior-3.jpg.webp?VersionId=AXgjh_t.AXYBtuXj1_N6dsVHlcJ9Ou_E&itok=vr6MmhSr");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#IN7{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCWQmGDuKutgdWb8poCs_cl2VsrILPTKfliw&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#IN8{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6GmBmvs-T3VyrSHStZodISQXCyx2-huSiZdUA6ZKy-e9TVP0NRnYIXW7yMY6vmJryWw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* #REDFORT */
+#G5{
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/26/65/7d/the-oberoi-new-delhi.jpg?w=700&h=-1&s=1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#G6{
+    background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/121510918.jpg?k=595c717783808b573f94e14a6586cc14a9f7df888a433a3370b088f018737835&o=&hp=1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#G7{
+    background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/464303942.jpg?k=24e506ebac37b9faee6d31c754f97af1b1362355fc4a28cf7bb4ec72624cfc5d&o=&hp=1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#G8{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/02/3e/9c/6f/the-lalit-new-delhi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* TAMIL NADU */
+/* #chennai */
+#CH1{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJdB7ZLB3MKQUIBeD7AKExqX_FRRaGm065Ow&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH2{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNTCoPZ-pWzNPBTZj5xgRkabIHdkzpRQGjtaxYFfyD9ouFBjH10F5ea6GD9bNH0Zpqaq0&usqp=CAU");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH3{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVAtqZoKNokzJkX3_meET1daKhMiLa-GQLwQ&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH4{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRodYNp4NbKw4ISVcZuDzyXxOqIw1YQK0j_2Q&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH5{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIGgpZq9m9Awr2m8dGcqDAx9bp2S-bRoYLgA&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH6{
+   background-image: url("https://tastyappetite.net/static/cb67d5b1fc06a9a36abf8284b29562dc/14b42/0c56f04b9dc09d7a0c7595b4915ef527.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH7{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaNqWfTuMJP_0k-Sscl7ogs-VS8QeB9S6jMQ&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH8{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1GIen7i5mx7A-09C02vVLR6_V_czs4Ksl9A&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH9{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUSkEJ4ImnJn-LYV-sz9e-UygupMdt94AoZA&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH10{
+   background-image: url("https://r1imghtlak.mmtcdn.com/c9542292b0ec11ed9fea0a58a9feac02.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH11{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ2gJLPfeTO_TmmJHc7xBzSw4zOVzH8EzGvQ&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CH12{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkqOQKSpkxW2ywCZYO9PWWocoZyh-c5TuSUw&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapsCH{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIlEEBy3B2Dr7uBfrz9bkcS7M6Xzw5lu_HZA&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+/* #COIMBATOR */
+#CO1{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFpEVmLn9-f73ZRByUbfujl_SupQHfqBPc5Q&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO2{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgB6-S_HHOKdpFwhLuPMvEh06qab_r2hOsUA&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO3{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJgnfeqxp5cTCr8wJMjRL2wlCa3hVmu1xKYg&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO4{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvYBe7dj-ksbAtA_pNUhW9PEZVO_RiGU86kg&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO5{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8Fr3hUhKw9B_BtcIxh0u7ecg0PB96RBcGw&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO6{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg9VgcdXzBEJffAB0pNAswG92DK9tU1siOdQ&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO7{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDnfXctPtzA8bkN_L-6ahzvxwntvzl3x49Ww&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO8{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlG35_o7IBfxMy6URjRV37ocLJElItCoTjRknA3V_6qeqCWbvZ8mxWcQN1cINhsR3o51c&usqp=CAU");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO9{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqXmOHAtEX-m-pqi0iqPTrqLZ85ztCiZwYGQ&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO10{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjKa61Oyh5brO2vxggmVvogYvjGms_P0VnYA&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO11{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcHU-DY9F6h_12UptdEpN1VJaGK50DdJRnVA&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#CO12{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIrKlNx3uNUzinPR35CGU3-TWcUXvonkgB3A&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapsCO{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3qbqGU5-xoU2z_G4CBYZAlaXzxvlqbEH-RA&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+/* #KODAIKANAL */
+#KO1{
+   background-image: url("https://static.toiimg.com/photo/58640316.cms");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO2{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj836OxvVZpKXoIPmGbHsqiGmdBfgRpmu08A&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO3{
+   background-image: url("https://www.tamilnadutourism.tn.gov.in/img/pages/medium-desktop/pillar-rocks-1657517259_03bc204b5f5261640bf1.webp");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO4{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvHOGLYvreY1CJfN2_cQsV-3UqWm-ER8m3nA&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO5{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp85L3Y-yD4JjRZuftYF0M-pBnnUmx6IzQYw&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO6{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScBg-PMuVbh98LUDEW-fkbT-qZVFceiCNkNQ&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO7{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQteRfaGJyQBuaUoev-Val7Zn8D-83o-sCLow&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO8{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ__RECTpIInVfbsO5AN9GbmFbfboeTB-15Q&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO9{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P7XmqDwHdfQFzxYOdTlRgn3TvcmdNFq67w&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO10{
+   background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/400901360.jpg?k=a65711268dae64bb501a3cc03664bf3e6aec6aa564e8c64762ccc4590fecd11c&o=&hp=1");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO11{
+   background-image: url("https://res.cloudinary.com/simplotel/image/upload/x_1,y_0,w_1647,h_926,c_crop,q_92,fl_progressive/w_900,h_506,f_auto,c_fit/the-carlton/IMG-20220714-WA0003_njf8wn");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#KO12{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgClpo2-3Qcr_PzrdU5VE3LJ64lPzf-2C8-g&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapsKO{
+   background-image: url("https://www.mapsofindia.com/maps/tamilnadu/kodaikanal-location-map.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+/* DELHI */
+
+* #HUMAYUNSTOMB */
+#HU1{
+    background-image: url("https://www.sushanttravels.com/uploads/V0oeUpb_PURANA_QUILA_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU2{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Tomb_of_Isa_Khan_Niazi.jpg/640px-Tomb_of_Isa_Khan_Niazi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU3{
+    background-image: url("https://www.pelago.co/img/products/IN-India/humayun-s-tomb-skip-the-line-e-tickets-guide-delhi-transfers/82bb3fce-13f3-4074-b991-3c375cb1b766_humayun-s-tomb-skip-the-line-e-tickets-guide-delhi-transfers.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU4{
+    background-image: url("https://lp-cms-production.imgix.net/2019-06/d037496bdc8b72cf1e78bd9a08a5a823-lodi-gardens.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU5{
+    background-image: url("https://www.rotinrice.com/wp-content/uploads/2011/04/RotiCanai-1.jpg");
+    background-size: 100% 100%;
+}
+#HU6{
+    background-image: url("https://th-i.thgim.com/public/life-and-style/food/article21379271.ece/alternates/LANDSCAPE_1200/09DMCRAHUL1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU7{
+    background-image: url("https://static.toiimg.com/thumb/52554168.cms?imgsize=572669&width=800&height=800");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU8{
+    background-image: url("https://hot-thai-kitchen.com/wp-content/uploads/2021/11/chili-garlic-noodles-blog.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU9{
+    background-image: url("https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/01/23/0953/Hyatt-Regency-Delhi-P312-Facade.jpg/Hyatt-Regency-Delhi-P312-Facade.16x9.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU10{
+    background-image: url("https://gos3.ibcdn.com/881968aa14d211eaac810242ac110003.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU11{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRlDsYKJ3N3YBecL42xhdRiMvPUiBSQAzalIfezIUsyIZTKlqvvBza6w4tDjbsnm4CxU&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#HU12{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqBD9TzQmFGA4GjZ3lAUIAZTNzIe0jKNs2Q&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#mapsHU{
+    background-image: url("https://mytravelnama.wordpress.com/wp-content/uploads/2016/09/a.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+/* yanam */
+#pic1{
+   background-image: url("https://c.ndtvimg.com/2021-02/9e8j71q_grilled-fish_625x300_10_February_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic2
+{
+   background-image: url("https://i0.wp.com/relaxlangmom.com/wp-content/uploads/2020/05/Sweet-Chili-Crab-Dampa-Style-RLM-Article-Image.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic3{
+   background-image: url("https://tse1.mm.bing.net/th?id=OIP.8DPrqSoH6pTC0yt3x-WaBQHaE8&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic4{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0BnmP368Fzb9QCpeKSplFYPYR2Kw5WKUv_Q&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic5{
+   background-image: url("https://lh5.googleusercontent.com/p/AF1QipOlAXKBmR2I79T5mMReW5IL3rdKjuRQ5RxikZO3=w253-h142-k-no");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic6{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipOf8nhG413J8STg_FPaldIZm4x7xwYfD9NfnuGf=w574-h384-n-k-rw-no-v1");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic7{
+   background-image: url("https://lh5.googleusercontent.com/p/AF1QipNww3_5occnSPrrFdxUWYzjYnkktMUXk4IYCuU0=w253-h189-k-no");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic8{
+   background-image: url("https://lh5.googleusercontent.com/p/AF1QipMThxWPGg8XFlONzeiQdd8E5fe-aGG9qmzhusAl=w253-h543-k-no");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic9{
+   background-image: url("https://content.tupaki.com/twdata/2015/0115/news/Eiffel-Tower-in-Yanam-to-be-launched-Today--1441.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic10{
+   background-image: url("https://media-cdn.tripadvisor.com/media/photo-m/1280/16/ce/e4/78/shivam-bath.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic11{
+   background-image: url("https://www.storyberrys.com/wp-content/uploads/2021/08/04659268-c94d-4b2b-941d-6813dd600b45.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#pic12{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbXoyoe8vxzvqkJXtWC138kSNIwGU0w4rmgF6KonzXi5gpJN9_CxmAyQCL4ptatoVlD4A&usqp=CAU");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapya{
+   background-image: url("https://www.touristplacesinindia.com/pondicherry/images/yanam.gif");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+/* amaravathi */
+
+#p1A{
+   background-image: url("https://www.crazymasalafood.com/wp-content/images/1-156.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2A
+{
+   background-image: url("https://qph.cf2.quoracdn.net/main-qimg-3fb71e9a6e5485165f6131a99003e77f-lq");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3A{
+   background-image: url("https://content.jdmagicbox.com/comp/amravati/y3/9999px721.x721.170603193815.y7y3/catalogue/momai-sweet-and-namkeen-warud-warud-amravati-amravati-l0wsr57609.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4A{
+   background-image: url("https://tse3.mm.bing.net/th?id=OIP.xlwki9PTq9eSDOfbnI7b9QHaD4&pid=Api&P=0&h=180");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5A{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRzpgE8_PCo4RTAc6WaJrZNjeOiWWMabml-TEUAUUchamKNgXC2PWFbgJdkxe5xeZATdg&usqp=CAU");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6A{
+   background-image: url("https://lh4.googleusercontent.com/proxy/kBPzce7oPZHAPzE60sV5OBN20LF-Pr8ThO4P8vMspU4vlMoEb9BppoDK29AK57F8IYa529J94qdezUsIE-M3-Y3GVHOolt_0AOCvLl4iolEX-pzxtuyK_R5sRwh9_jEjsg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7A{
+   background-image: url("https://lh6.googleusercontent.com/proxy/GppoVs13eMpwIuehquIpLzJiS5NHrQgwnzVhbcoeh2nRlvg0kUiofrnwks0nfjPOCJPAffbvBykR73MZUHMoRNR9CVT1cWcarCG8SRfy5MW-79Il7uiah0UcE0UNY7biVwFp4Bu2RWXcuS1D");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8A{
+   background-image: url("https://www.postoast.com/wp-content/uploads/2022/08/Ananthagiri-Hills-Araku-Valley-places.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9A{
+   background-image: url("https://www.holidify.com/images/bgImages/AMARAVATHI.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10A{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipM8DMk7bFrrFWZmRPxqhUs4P0Bp_TjqLiJBYf1C=s294-w294-h220-k-no");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11A{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipOxN6gP0_-L-pYz-rzcpuu7RcLgQF23L9nywnHd=s294-w294-h220-k-no");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12A{
+   background-image: url("http://2.bp.blogspot.com/-4ShMLfDaB8M/VlA0y-oF6JI/AAAAAAAAAPM/Cejbqzxc0WA/s1600/araku-in-blossom.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#map{
+   background-image: url("https://media.licdn.com/dms/image/D4D12AQHlGgUQygvdDA/article-cover_image-shrink_720_1280/0/1683709969380?e=2147483647&v=beta&t=FsUJtvY51fwwLqZHX6MkxdaWKnnpvtNXqbwYyYA5aXU");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+
+/* UTTARPRADESH */
+
+/* #LUCKNOW */
+
+#LO1{
+   background-image: url("https://content.jdmagicbox.com/comp/kanpur/i9/0512px512.x512.200109165718.g5i9/catalogue/anandi-magic-world-resorts-and-club-kanpur-banquet-halls-aw3gjhaixg.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO2{
+   background-image: url("https://img.traveltriangle.com/blog/wp-content/uploads/2024/06/Hotels-Near-Bara-Imambara1.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO3{
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Rumi_Darwaza_-DSC2797-01.jpg/800px-Rumi_Darwaza-_DSC2797-01.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO4{
+   background-image: url("https://images.herzindagi.info/image/2022/Dec/hazratganj-market-lucknow-for-shopping-hindi.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO5{
+   background-image: url("https://2.bp.blogspot.com/-BsEhAwJSdG8/T2l6gmAg_BI/AAAAAAAAAfE/sIMQgJAai4s/s1600/pkf.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO6{
+   background-image: url("https://pipingpotcurry.com/wp-content/uploads/2022/03/Thandai-Recipe-for-Holi-Piping-Pot-Curry.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO7{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJWRI7Jp07Xbzc_y-ZAIiup_fNtF-fkjnuCA&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO8{
+   background-image: url("https://www.whiskaffair.com/wp-content/uploads/2019/02/Tahri-2-1-1200x1800.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO9{
+   background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/80052958.jpg?k=c464c1747ac20a3a6fd1befca3b24d5d9b15162f53213173f367df397834e867&o=&hp=1");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO10{
+   background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/515346528.jpg?k=36095a57a133eaee816a7c4e64174a500dfedb99bfea5d5bb4f7e7d4916acea2&o=&hp=1");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO11{
+   background-image: url("https://content.jdmagicbox.com/comp/lucknow/z2/0522px522.x522.160711140322.d6z2/catalogue/lebua-lucknow-hazratganj-lucknow-hotels-zhzurnexku.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#LO12{
+   background-image: url("https://www.fortunehotels.in/hotel-image/banners/otherbanner/fortune-park-bbd-lucknow2017810116.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}#mapsLO{
+   background-image: url("");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+/* #VARANASI */
+#VA1{
+   background-image: url("https://map.sahapedia.org/admin/assets/images/2022042915542350Banner_612.jpg?imr=bannerMuseum");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA2{
+   background-image: url("https://static.toiimg.com/thumb/msid-91735010,width-1280,height-720,resizemode-4/91735010.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA3{
+   background-image: url("https://images.indianexpress.com/2021/12/29-2.jpg?resize=728,405");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA4{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjZSkOblL_kQMi73jX-M2ZEnPmUvdCBAkog&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA5{
+   background-image: url("https://www.vegrecipesofindia.com/wp-content/uploads/2018/03/raj-kachori-chaat-recipe-1.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA6{
+   background-image: url("https://www.kitchensanctuary.com/wp-content/uploads/2023/10/Samosa-square-FS.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA7{
+   background-image: url("https://www.indianveggiedelight.com/wp-content/uploads/2023/07/aloo-tikki-featured.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA8{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ321oD8PPlAakIa_zqLt_kFeToBplXfCsMug&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA9{
+   background-image: url("https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_600,q_auto,w_600//hotelier-images/15/03/bcb127108a78b40dfc302e2d1b2223d5d504ccfb475074840c9b83ae454e.jpeg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA10{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pLxAyFvM_FOrKrAnGxbI-0yIGnkrS0wo8w&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA11{
+   background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/68/e7/ff/hotel-grapevine.jpg?w=1200&h=-1&s=1");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#VA12{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYTaJe8pj_E6mBYgQD2KjTWppjg0FA-KTrTbkltwLLaaIy-9gnS-ErobCEtR2IsMdAwkI&usqp=CAU");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapsVA{
+   background-image: url("https://www.mapsofindia.com/maps/uttarpradesh/districts/varanasi-district-map.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+
+#SA1{
+   background-image: url("https://merebankeybihari.com/wp-content/uploads/2022/11/image_750x_630046ddacc9d.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA2{
+   background-image: url("https://anandamclarksinn.com/upload/95333.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA3{
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/PremMandirSideViewFromCanteen.jpg/640px-PremMandirSideViewFromCanteen.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA4{
+   background-image: url("https://mathuravrindavantourism.co.in/images//tourist-places/radha-raman-temple-mathura/radha-raman-temple-mathura-indian-tourism-location-address.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA5{
+   background-image: url("https://static.wixstatic.com/media/3ed1e1_52c9b356b6d14a08973f35e1ec156370~mv2.jpg/v1/fill/w_740,h_375,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3ed1e1_52c9b356b6d14a08973f35e1ec156370~mv2.jpg");
+   background-size: 100% 100%;
+}
+#SA6{
+   background-image: url("https://www.indianhealthyrecipes.com/wp-content/uploads/2020/10/rabri-rabdi.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA7{
+   background-image: url("https://www.thespruceeats.com/thmb/gTwaq0oYdmP3z9PWi1lsVEFyrHY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mint-lassi-2216233-step-04-c072053ed13141a8933a8f6d96d27690.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA8{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2rtPmYNTg0dC0ESBotoat72MjT21Gs9bZwg&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA9{
+   background-image: url("https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202303301658457841-57468208ceec11ed84260a58a9feac02.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA100{
+   background-image: url("https://r1imghtlak.ibcdn.com/588ad8808ddd11eda6800a58a9feac02.jpeg?output-quality=75&downsize=328:180&output-format=webp");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA11{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrLnrW8a_pcrr6aPbhMstRUoG33LioyZ_xw&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#SA12{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqBD9TzQmFGA4GjZ3lAUIAZTNzIe0jKNs2Q&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#MAPP{
+   background-image: url("https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/27.577087,77.694885/11?ms=648,247&heid=7411407693220413441,707070&fpp=27.57708740234375,77.69488525390625;178&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&ur=in&fmt=jpeg&od=1&shading=hill&logo=n&da=ro");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+#p1E{
+   background-image: url("https://www.abhibus.com/blog/wp-content/uploads/2023/07/Top-10-Must-Try-Foods-on-Your-Next-Shirdi-Trip-696x385.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2E
+{
+   background-image: url("https://www.chefkunalkapur.com/wp-content/uploads/2021/09/Misal-Pav-scaled-e1632546134621-1300x967.jpg?v=1632546072");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3E{
+   background-image: url("https://static.toiimg.com/thumb/52416693.cms?width=1200&height=900");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4E{
+   background-image: url("https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/11/04/Pictures/_3fb4458c-c14e-11e7-9033-2159153d9ac6.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+#p5E{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRzpgE8_PCo4RTAc6WaJrZNjeOiWWMabml-TEUAUUchamKNgXC2PWFbgJdkxe5xeZATdg&usqp=CAU");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6E{
+   background-image: url("https://lh4.googleusercontent.com/proxy/kBPzce7oPZHAPzE60sV5OBN20LF-Pr8ThO4P8vMspU4vlMoEb9BppoDK29AK57F8IYa529J94qdezUsIE-M3-Y3GVHOolt_0AOCvLl4iolEX-pzxtuyK_R5sRwh9_jEjsg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7E{
+   background-image: url("https://lh6.googleusercontent.com/proxy/GppoVs13eMpwIuehquIpLzJiS5NHrQgwnzVhbcoeh2nRlvg0kUiofrnwks0nfjPOCJPAffbvBykR73MZUHMoRNR9CVT1cWcarCG8SRfy5MW-79Il7uiah0UcE0UNY7biVwFp4Bu2RWXcuS1D");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8E{
+   background-image: url("https://www.postoast.com/wp-content/uploads/2022/08/Ananthagiri-Hills-Araku-Valley-places.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.places{
+   height: 53%;
+   width: 100%;
+   /* background-color: aquamarine; */
+}
+
+#p9E{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-pcBvDkncXg4H_3FPZyU0VhUMyFea23Z0w&s");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10E{
+   background-image: url("data:image/jpeg;base64,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");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11E{
+   background-image: url("https://th.bing.com/th/id/OIP.MA2tOt5j6-oNKVRW86O6SQHaEK?w=296&h=180&c=7&r=0&o=5&pid=1.7");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12E{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXh5PXep-i-Y3f3fOrMA1aEcV_EeTfZPY1ZijU_TSH5su0vA&s=4");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#MAPPP{
+   background-image: url("https://www.hotelsinagra.org/puri_large.JPG");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p1C{
+   background-image: url("https://im.hunt.in/cg/Cuddapah/City-Guide/payacurry.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p2C
+{
+   background-image: url("https://images.tv9telugu.com/wp-content/uploads/2023/08/nellore-chepala-pulusu.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3C{
+   background-image: url("https://mycookingjourney.com/wp-content/uploads/2015/06/Kadappa-%287%29-1024x714.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4C{
+   background-image: url("https://rayalaseema.weebly.com/uploads/5/0/7/2/50729861/6965447.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5C{
+   background-image: url("https://arakuresorts.in/assets/images/pedalabudu-eco-tourism-resort-1-381x254.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6C{
+   background-image: url("https://imgservice.petfriendly.io/500x245/rivera-resort-in-jammalamadugu-bc-11246713-0.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7C{
+   background-image: url("https://content.jdmagicbox.com/comp/almora/u6/9999p5962.5962.170216224502.r6u6/catalogue/binsar-eco-resort-deenapani-almora-hotel-reservations-for-binsar-fzx4tdb.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8C{
+   background-image: url("https://imgservice.petfriendly.io/500x245/apartments-in-india-in-madanapalle-bc-8115451-0.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9C{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipNwxTDYSnWaEmv4syNpLeUWSZ7rhEvaEB42hv-d=s680-w680-h510-rw");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10C{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipMG9UwRShnfthfP9Eg8xl-vxOQj6dsozZ1P2ymd=s294-w294-h220-k-no");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11C{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipN2tWBbmJPSpa-KfRR8aWbl2QSSZJuAgrfe0y2P=s294-w294-h220-k-no");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12C{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipMgQFJBv5I6oYFXzPlX57zp5JYBQbxOG1aX4FgA=s680-w680-h510-rw");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#maaaap{
+   background-image: url("https://www.google.com/maps/vt/data=sto8veUMYSSfNqxRNTAsvEQ6KgHAYJLQKsnxxmn--kf1KRqrxp_R806bcsA94aLpgYTZsXtDzD8F5FLxOuSWk2sAdqgCnB0Nb7NbbfxwMiL52mymBmAthRMR75-3EJLozHBUhIsXuUadwLsWLncYLYgA7r9JFlFyG3TSUEPJAlFlRDmPesivEitvT_y1BNWyfr71gdA9VCjn3PxpvPgMeF_MFP5nzPdmC7d_N7a9XPcrmPCCdBFR3jHBTvCDRk9jLCqIdOLhM0FI_HDwl7RbwCkTZaQ");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p1B{
+   background-image: url("https://www.hlimg.com/images/stories/738X538/uttarakhand-ke-aloo-ke-gutke-recipe-main-photo_1590048651-6118e.jpg?w=800&dpr=1.0");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+#p2B
+{
+   background-image: url("https://www.maggi.in/sites/default/files/styles/home_stage_944_531/public/srh_recipes/f6d480af28b14b4226639ef9a4042835.jpg?h=152e3acd&itok=fHTJQ9ST");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p3B{
+   background-image: url("https://lh3.googleusercontent.com/proxy/S8cFFWZkZkrOsxHCsJIpxAjd8f1Twvluo3gd1o6EuqIEOHHj1m7T9o5b93WlLAIwYRDirp49395_qw2GzoRtk5kDQS4_nov3jWxoa1NUQskfkfo2Bt6YtQ7AZV0-I_0");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p4B{
+   background-image: url("https://i.ytimg.com/vi/9DZQaA8y_W0/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGH8gXSgTMA8=&rs=AOn4CLCNqZ1XJTUSrzEAtl4OxtBdPARK-Q");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p5B{
+   background-image: url("https://allseasonsz.com/Images/DestinationPage/kedarnath-hotels.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p6B{
+   background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e8/ba/56/gmvn-kedarnath-swargarohini.jpg?w=1200&h=-1&s=1");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p7B{
+   background-image: url("https://travelcrm.weboutsources.com/images/hotels/kedarnath/2301-11225214048.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p8B{
+   background-image: url("https://images.trvl-media.com/lodging/96000000/95740000/95737700/95737676/9b61be8d.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p9B{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipMCLMBZ4Oa11R0EZ3Uk1eVUdtoG061cy2C8O4Uz=s294-w294-h220-k-no");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p10B{
+   background-image: url("https://lh5.googleusercontent.com/p/AF1QipNyakUyVZ4Xwyw_qRDZKBPGHyEHgChX6EkGwAfl=w341-h256-k-no");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p11B{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipOgPQJ0ZmITH4wrW_cNreSZ7V-NacYAnKf1loF-=s680-w680-h510-rw");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#p12B{
+   background-image: url("https://lh3.googleusercontent.com/p/AF1QipNztNoXQc7ORUglKXqswFB2hClw3t9jZ65JH1mZ=s680-w680-h510-rw");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+#mapppppp{
+   background-image: url("https://media.licdn.com/dms/image/D4D12AQHlGgUQygvdDA/article-cover_image-shrink_720_1280/0/1683709969380?e=2147483647&v=beta&t=FsUJtvY51fwwLqZHX6MkxdaWKnnpvtNXqbwYyYA5aXU");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+

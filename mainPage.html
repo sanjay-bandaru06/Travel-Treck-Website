@@ -1,0 +1,451 @@
+
+<html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick-1.8.1/slick/slick.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="./mainPage.css" />
+    
+    <style>
+        .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <div class="a1">
+            <div class="a11">
+                <div class="b"></div>
+            </div>
+            <div class="a12">
+                <div id="b11">HOME</div>
+                <div id="b12">ABOUT US</div>
+                <div id="b13">SEASONS</div>
+                <div id="b14" >VLOGS</div>
+               <div id="b14">CONTACT US</div>
+            </div>
+            <div class="search">
+                <div class="a15">
+                    <div class="a152"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="a151">
+                        <!-- <input type="text" id="searchInput" placeholder="search here" style="height: 100%;width: 100%;"> -->
+                         <select onchange="location=this.value">
+                            <option>Select one</option>
+                            <option value="andhra.html">AndhraPradesh</option>
+                            <option value="delhi23.html">Delhi</option>
+                            <option value="uttarprdesh.html">Uttarpradesh</option>
+                            <option value="maha23.html">Maharashtra</option>
+                            <option value="tamilnadu.html">Tamilnadu</option>
+                            <option value="jammu.html">Jammu And Kashmir</option>
+                         </select>
+                    </div>
+                </div>
+            </div>
+            <div class="a13">
+                <div class="b2" onclick="displayLogin()"><i class="fa-solid fa-user"></i></div>
+            </div>
+
+            <div class="a14" ondblclick="fun2()" onclick="fun()"><i class="fa-solid fa-bars"></i>
+                <div class="parent">
+                    <div class="option">HOME</div>
+                    <div class="option">ABOUT US</div>
+                    <div class="option">SEASONS</div>
+                    <div class="option">VLOGS</div>
+                    <div class="option">CONTACT US</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="demo">
+        <div class="frame">
+            <div class="c1">
+                <div class="c11"></div>
+                <div class="c12"></div>
+            </div>
+            <div class="c2">
+                <div class="c21"></div>
+                <div class="c22"></div>
+            </div>
+        </div>
+        <div id="about" class="frame1">
+            <div class="c3">Embark on a Journey</div>
+            <div class="c4">Of Discovery</div>
+            <div class="c5">
+                <p align="left">Traveling is a multifaceted activity that allows individuals to explore new places,
+                    cultures, and experiences.
+                    Whether it is for leisure,business, or adventure, traveling provides numerous benefits and
+                    opportunities for personal growth and enjoyment.
+                    Traveling offers the chance to visit new destinations and experience different environments. From
+                    bustling cities to serene countryside,
+                    and tropical beaches to snowy mountains, each location offers unique adventures and activities.</p>
+                <br>
+                <p align="left">Traveling is a rewarding experience that enriches the mind, body, and soul.
+                    It offers a break from routine, provides new perspectives, and creates unforgettable experiences.
+                </p>
+            </div>
+            <div class="btnx">See More</div>
+        </div>
+    </div> 
+     <div id="season" class="part3">
+        <div class="part3_head">TRAVEL WITH THE SEASONS</div>
+        <div class="part3_sea">
+            <div class="card">
+                <div class="container">
+                    <div class="cloud front">
+                        <span class="left-front"></span>
+                        <span class="right-front"></span>
+                    </div>
+                    <span class="sun sunshine"></span>
+                    <span class="sun"></span>
+                    <div class="cloud back">
+                        <span class="left-back"></span>
+                        <span class="right-back"></span>
+                    </div>
+                </div>
+
+                <div class="card-header">
+                    <span>SUMMER</span>
+                    <span>32°-40°</span>
+                </div>
+
+                <span class="temp">MARCH-JUNE</span>
+
+                <a href="summer.html"><div class="temp-scale">
+                    <span>Explore</span>
+                </div></a>
+            </div>
+            <div class="card1">
+                <div class="container">
+                    <div class="cloud front">
+                        <image
+                            src="https://png.pngtree.com/png-clipart/20210311/original/pngtree-rain-clouds-png-image_6016108.png"
+                            width="230px" ,height="123px"></image>
+                    </div>
+                </div>
+
+                <div class="card-header">
+                    <span>RAINNY</span>
+                    <span>20°-24°</span>
+                </div>
+
+                <span class="temp">JULY-OCTOBER</span>
+
+                <a href="rainy.html"><div class="temp-scale">
+                    <span>Explore</span>
+                </div></a>
+            </div>
+            <div class="card2">
+                <div class="container">
+                    <div class="cloud front">
+                        <image src="https://img1.picmix.com/output/stamp/normal/9/6/4/7/1007469_4917b.gif" width="250px"
+                            ,height="34px"></image>
+                    </div>
+                </div>
+
+                <div class="card-header">
+                    <span>WINTER</span>
+                    <span>20°-24°</span>
+                </div>
+
+                <span class="temp">NOVEMBER-FEBURARY</span>
+
+                <a href="winter.html"><div class="temp-scale">
+                    <span>Explore</span>
+                </div></a>
+            </div>
+        </div>
+    </div> 
+     <div class="main3">
+        <div class="stbox">
+            <div class="stb1">
+                <div class="stb11">
+                    <div class="stb12">
+                        <div class="stb112">
+                            <div class="stb2">ANDHRA PRADESH</div>
+                            <div class="stb21">Andhra Pradesh is located in the southeastern part of India, bordered by
+                                Telangana, Tamil Nadu, Karnataka, Odisha, and the Bay of Bengal. The state's capital is
+                                Amaravati, and its largest city is Visakhapatnam.</div>
+                            <div class="stb22">
+                                <div class="stb23">
+                                    <a href="andhra.html"> <button class="btny"><i class="animation"></i>Explore<i
+                                                class="animation"></i>
+                                        </button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stb13">
+                        <div class="poly"></div>
+                        <div class="poly2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="stb1">
+                <div class="stb11" id="stb11img">
+                    <div class="stb12">
+                        <div class="stb112">
+                            <div class="stb2">TAMIL NADU</div>
+                            <div class="stb21">Tamil Nadu is located in the southern part of India, bordered by Kerala,
+                                Karnataka, Andhra Pradesh, and the Bay of Bengal. Its capital city is Chennai, known for
+                                its cultural heritage and bustling economy.</div>
+                            <div class="stb22">
+                                <div class="stb23">
+                                    <a href="tamilnadu.html"><button class="btny"><i class="animation"></i>Explore<i class="animation"></i>
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stb13">
+                        <div class="poly" id="polyimg"></div>
+                        <div class="poly2" id="polyimg1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="stb1">
+                <div class="stb11" id="stb11img2">
+                    <div class="stb12">
+                        <div class="stb112">
+                            <div class="stb2">UTTAR PRADESH</div>
+                            <div class="stb21">Uttar Pradesh is situated in the northern part of India, bordered by
+                                Uttarakhand, Himachal Pradesh, Haryana, Delhi, Rajasthan, Madhya Pradesh, Bihar, and
+                                Nepal. Its capital is Lucknow, and it is known for its rich cultural heritage and
+                                historical significance.</div>
+                            <div class="stb22">
+                                <div class="stb23">
+                                    <a href="uttarprdesh.html"><button class="btny"><i class="animation"></i>Explore<i class="animation"></i>
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stb13">
+                        <div class="poly" id="polyimg2"></div>
+                        <div class="poly2" id="polyimg3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="stb1">
+                <div class="stb11" id="stb11img3">
+                    <div class="stb12">
+                        <div class="stb112">
+                            <div class="stb2">MAHARASHTRA</div>
+                            <div class="stb21">Maharashtra is located in the western part of India, bordered by Gujarat,
+                                Madhya Pradesh, Chhattisgarh, Telangana, Karnataka, Goa, and the Arabian Sea. Its
+                                capital city is Mumbai, which is also the financial and entertainment hub of India.
+                            </div>
+                            <div class="stb22">
+                                <div class="stb23">
+                                    <a href="maha23.html"><button class="btny"><i class="animation"></i>Explore<i class="animation"></i>
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stb13">
+                        <div class="poly" id="polyimg4"></div>
+                        <div class="poly2" id="polyimg5"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="stb1">
+                <div class="stb11" id="stb11img4">
+                    <div class="stb12">
+                        <div class="stb112">
+                            <div class="stb2">JAMMU & KASHMIR</div>
+                            <div class="stb21">Jammu and Kashmir is located in the northernmost part of India, bordered
+                                by Himachal Pradesh and Punjab to the south and shares international borders with
+                                Pakistan and China. The region is known for its stunning landscapes, including the
+                                Kashmir Valley</div>
+                            <div class="stb22">
+                                <div class="stb23">
+                                    <a href="jammu.html"><button class="btny"><i class="animation"></i>Explore<i class="animation"></i>
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stb13">
+                        <div class="poly" id="polyimg6"></div>
+                        <div class="poly2" id="polyimg7"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="stb1">
+                <div class="stb11" id="stb11img5">
+                    <div class="stb12">
+                        <div class="stb112">
+                            <div class="stb2">DELHI</div>
+                            <div class="stb21">Delhi, the capital territory of India, is located in the northern part of
+                                the country. It is bordered by Haryana on three sides and Uttar Pradesh to the east,
+                                encompassing the bustling city of New Delhi, which serves as the nation's capital and
+                                the seat of all three branches of the Indian government.</div>
+                            <div class="stb22">
+                                <div class="stb23">
+                                    <a href="delhi23.html"><button class="btny"><i class="animation"></i>Explore<i class="animation"></i>
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stb13">
+                        <div class="poly" id="polyimg8"></div>
+                        <div class="poly2" id="polyimg9"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- <marquee>
+        <div class="vlogs">
+               <div class="g" id="g1"></div>
+               <div class="g" id="g2"></div>
+               <div class="g" id="g3"></div>
+               <div class="g" id="g4"></div>
+               <div class="g" id="g5"></div>
+               <div class="g" id="g6"></div>
+               <div class="g" id="g7"></div>
+        </div></marquee>  -->
+    <div class="vlogs"></div>
+        <footer>
+            <div id="foot" class="footer-content">
+                <div class="footer-section about">
+                    <h2>About Us</h2>
+                    <p>We are a team of passionate and we give the full information about  travel and also  the guidance. Follow us on our social media for more updates.</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-form">
+                    <h2>Contact Us</h2>
+                    <form action="#">
+                        <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                        <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                        <button type="submit" class="btn btn-big contact-btn" onclick="sendMsg()">
+                            <i class="fas fa-envelope"></i> Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 TravelTrek | Designed by Asthethects
+            </div>
+        </footer>    
+    <script type="text/javascript" src="./slick-1.8.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick-1.8.1/slick/slick.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.stbox').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots:true,
+            prevArrow: '<button class="prev">></buton>',
+            nextArrow: '<button class="next">></buton>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        // centerMode:true
+                    },
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        // centerMode:true
+                    },
+                },
+                {
+                    breakpoint: 467,
+                    settings: {
+                        slidesToShow: 1,
+                        // centerMode:true
+                    },
+                },
+            ]
+
+        });
+    </script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+        ScrollReveal().reveal('.a1', { delay: 500 });
+        ScrollReveal().reveal('.box,.c22,.c3', { delay: 500, origin: 'right' });
+        ScrollReveal().reveal('.c11,.stbox', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.c5,.btn', { delay: 500, interval: 400 });
+        ScrollReveal().reveal('.card2,.card,.card1',{ delay:500,origin:'bottom',interval:500});
+    </script>
+    <script src="./mainPage.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    // Add sample data to localStorage for demonstration purposes
+    const sampleData = {
+        "Andhra": "andhra.html",
+        "Delhi": "delhi23.html",
+        "Tamilnadu": "tamilnadu.html",
+        "Uttarpradesh":"uttarprdesh.html",
+        "Jammu And Kashmir":"jammu.html",
+        "Maharastra":"maha23.html",
+    };
+    
+    for (const key in sampleData) {
+        localStorage.setItem(key, sampleData[key]);
+    }
+});
+
+function performSearch() {
+    const query = document.getElementById('searchInput').value.toLowerCase();
+    const pagePath = localStorage.getItem(query);
+    console.log(localStorage.getItem('Andhra'))
+    console.log(localStorage.getItem("Delhi"))
+    console.log(localStorage.getItem("Tamilnadu"))
+    console.log(localStorage.getItem("Jammu And Kashmir"))
+    console.log(query,localStorage.getItem(query));
+
+    if (pagePath) {
+        // window.location.href = pagePath;
+    } else {
+        alert('No results found');
+    }
+}
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1491 @@
+.a{
+    height: 100%;
+    width: 100%;
+    
+    overflow:hidden;
+    /* background-color: black; */
+    background-image: url("./firstback.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: ani;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+/* @media screen and (max-width:468px) 
+{
+    .a 
+    {
+        aspect-ratio: 2/3;
+        height: fit-content;
+        width: 100%;
+    }
+}   */
+.loginx
+{
+    width:100%;
+    height:100%;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_page
+{
+    width:45%;
+    height:75%;
+    border-radius: 5px;
+    border:2px solid white;
+    /* backdrop-filter: blur(5px); */
+    display:flex;
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.close
+{
+    width:100%;
+    height:12%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.login_close
+{
+    width:39px;
+    height:40px;
+    background-color: blue;
+    font-size: 26px;
+    position: relative;
+    border-bottom-left-radius: 13px;
+}
+.login 
+{
+    color:white;
+    font-size: 22px;
+    margin-top: -12px;
+}
+.user_name
+{
+    width:83%;
+    height:9%;
+    padding:22px;
+    /* background-color: aqua; */
+}
+input
+{
+    font-size: 22px;
+    border-radius: 53px;
+    color:black;
+    background-color: transparent;
+    
+}
+.login1
+{
+    width:83%;
+    height:9%;
+    /* background-color: blueviolet;s */
+    display: flex;
+    justify-content: space-between;
+}
+input::placeholder
+{
+    color:aliceblue
+}
+.reminder
+{
+    font-size: 22px;
+}
+.forgot
+{
+    font-size: 22px;
+}
+.loginbtn
+{
+    width:43%;
+    height:10%;
+    border-radius: 23px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    background-color: aqua;
+}
+.login_last
+{
+    width:83%;
+    height:9%; 
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:500px){
+    .in11
+    {
+        display:none;
+    }
+    .con1
+    {
+        display: none;
+    }
+    .text
+    {
+        display: none;
+    }
+    .text1
+    {
+        display: none;
+    }
+}
+.a1{
+    height: 12%;
+    width: 100%;
+    background-color:transparent;
+    /* background-color: bisque; */
+    /* opacity:0.4; */
+    display: flex;
+    align-items: center;
+    z-index: -44;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.a11{
+    height: 100%;
+    width: 12%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    height: 130px;
+    width: 150px;
+    border-radius: 100%;
+    color:white;
+    opacity:1.99;
+    /* background-color: antiquewhite; */
+    background-image: url("./logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.a12{
+    height: 100%;
+    width: 45%;
+    /* background-color: blueviolet; */
+    z-index: 44;
+    color:white;
+    font-weight: 22px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    gap:20px;
+}
+#b11:hover{
+    border-bottom: 3px solid rgb(87, 162, 186);
+    cursor: pointer;
+    text-decoration: none;
+}
+#b12:hover{
+    border-bottom: 3px solid rgb(87, 162, 186);
+    cursor: pointer;
+    text-decoration: none;
+}
+#b13:hover{
+    border-bottom: 3px solid rgb(87, 162, 186);
+    cursor: pointer;
+    text-decoration: none;
+}
+#b14:hover{
+    border-bottom: 3px solid rgb(87, 162, 186);
+    cursor: pointer;
+    text-decoration: none;
+}
+.a13{
+    height: 100%;
+    width: 10%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.b2 i
+{
+    font-size: 32px;
+    color:#faf9fc;
+}
+.b2{
+    height: 60%;
+    width: 50%;
+    border-radius: 100%;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.a14{
+    height: 100%;
+    width: 10%;
+    /* background-color: brown; */
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+.search{
+    height: 45%;
+    width: 25%;
+    margin-left: 22px;
+    border:2px solid white;
+    border-radius: 36px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a15{
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 36px;
+    /* filter: blur(4px); */
+    display: flex;
+}
+.a151{
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+.a151 select{
+    height: 100%;
+    width: 135%; 
+    background-color: transparent;
+    font-size: 20px;
+}
+.a152{
+    height: 100%;
+    width: 20%;
+    /* background-color: darkblue; */
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+@media screen and (max-width:900px){
+    .a152{
+        font-size: 18px;
+    }
+    .a151 select{
+        width: 90%;
+    }
+    .b{
+        margin-top: 30%;
+    }
+    .a{
+        height: 70%;
+    }
+    .a12{
+        font-size: 10px;
+    }
+    .a13{
+        width: 15%;
+    }
+
+}
+@media screen and (max-width:500px){
+    .a{
+        height: 50%;
+    }
+    .a12{
+        display: none;
+    }
+    .a14{
+        display: block;
+
+    }
+    .a14 i{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30%;
+    }
+    .search{
+        width: 40%;
+    }
+    .a11{
+        width: 20%;
+    }
+    .a13{
+        width: 20%;
+    }
+    .a13 i{
+        font-size: 20px;
+    }
+    .b{
+        margin-top: 15%;
+        height: 200%;
+    }
+    .a151 select{
+        font-size: 14px;
+    }
+    .a152{
+        font-size: 65%;
+    }
+}
+.parent{
+    width: 0%;
+    height:fit-content;
+    /* background-color: black; */
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top:50px;
+    right:0;
+    transition: all 1.5s;
+}
+.parent div{
+    padding: 5px 5px;
+}
+.option:hover{
+    transform: scale(1.08);
+    text-shadow: 2px 2px 13px white;
+    cursor:pointer;
+}
+.demo{
+    height:100%;
+    width: 100%;
+    /* aspect-ratio: 4:5; */
+    /* background-color:black; */
+    display: flex;
+    /* border:3px solid red; */
+    animation: rohini 3s  linear infinite;
+}
+.demo:hover{
+    background:linear-gradient(to bottom,lightblue,white);
+}
+.frame{
+    height: 100%;
+    width: 55%;
+    /* background-color: cadetblue; */
+    animation: rohini 3s  linear infinite;
+}
+.frame1{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(154, 246, 246); */
+    animation: rohini 1s  linear infinite;
+}
+.c1{
+    height: 50%;
+    width: 100%;
+    /* background-color:blueviolet ; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.c11{
+    height: 80%;
+    width: 40%;
+    /* background-color: white; */
+    background-image: url("https://cdn2.advanceinfotech.org/bharatdirectory.in/1200x675/business/21/taj-mahal4-1675766664.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 2%;
+}
+.c11:hover{
+    /* filter:Grayscale(100%); */
+    height: 82%;
+    width: 42%;
+}
+.c12{
+    height: 50%;
+    width: 30%;
+    background-color: white;
+    background-image: url("https://cdn.britannica.com/27/173827-050-DC76A2F3/Portion-Himalayas-Jammu-and-Kashmir-India-state.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 2%;
+    filter: grayscale(100%);
+}
+.c12:hover{
+    filter: grayscale(0%);
+}
+.c2{
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.c21{
+    height: 50%;
+    width: 30%;
+    /* background-color: white; */
+    background-image: url("https://cdn.britannica.com/36/250236-050-96BFE0EE/Virupaksha-Temple-Hampi-Karnataka-India.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter:drop-shadow(0%);
+    margin: 2%;
+    filter: grayscale(100%);
+}
+.c21:hover{
+    filter: grayscale(0%);
+}
+.c22{
+    height: 80%;
+    width: 40%;
+    /* background-color: white; */
+    background-image: url("https://www.africanwildlifesafaris.com/wp-content/uploads/south-india-inset9.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 2%;
+}
+.c22:hover{
+    /* filter: grayscale(100%); */
+    height: 82%;
+    width: 42%;
+}
+.c3{
+    height: fit-content;
+    width: 70%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    margin: 4%;
+    font-size: 48px;
+    position:relative;
+}
+.c4{
+    height: fit-content;
+    width: 333px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    margin: 4%;
+    font-size: 45px;
+    position:relative;
+    /* margin-left: 50%; */
+}
+.c3::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: darkblue;
+    transform: scaleX(0);
+    transform-origin:bottom right;
+    transition: transform 0.3s linear;
+}
+.c3:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+.c5{
+    height: fit-content;
+    width: 90%;
+    /* background-color: white; */
+    font-size: 17px;
+    margin-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c5 p{
+    text-align: justify;
+}
+@media screen and (max-width:900px){
+    .demo{
+        height: 80%;
+    }
+    .c3{
+        font-size: 32px;
+        width: 90%;
+    }
+    .c4{
+        font-size: 23px;
+        width: 45%;
+    }
+    .c5 p{
+        font-size: 12px;
+    }
+    .c11{
+        height: 70%;
+        width: 50%;
+    }
+    .c11:hover{
+        height: 71%;
+        width: 51%;
+    }
+    .c12{
+        height: 40%;
+        width: 30%;
+    }
+    .c21{
+        height: 40%;
+        width: 30%;
+    }
+    .c22{
+        height: 70%;
+        width: 50%;
+    }
+    .c22:hover{
+        height: 71%;
+        width: 51%;
+    }
+}
+@media screen and (max-width:700px){
+    .demo{
+        height: 50%;
+    }
+    .c5 p{
+        font-size: 8px;
+    }
+    .c3{
+        font-size: 25px;
+        width: 90%;
+    }
+    .c4{
+        font-size: 15px;
+        font-weight: 400;
+        width: 45%;
+    }
+    .c5{
+        font-size: 12px;
+    }
+    .c11{
+        height: 50%;
+        width: 50%;
+    }
+    .c11:hover{
+        height: 51%;
+        width: 51%;
+    }
+    .c12{
+        height: 30%;
+        width: 30%;
+    }
+    .c21{
+        height: 30%;
+        width: 30%;
+    }
+    .c22{
+        height: 50%;
+        width: 50%;
+    }
+    .c22:hover{
+        height: 51%;
+        width: 51%;
+    }
+}
+@media screen and (max-width:500px){ 
+    .c3{
+        font-size: 15px;
+    }
+    .c4{
+        font-size: 14px;
+        width: 60%;
+    }
+    .c5 p{
+        font-size: 7px;
+    }
+}
+.btnx {
+    height: 3%;
+    width: 15%;
+    position: relative;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    padding: 1em 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    /* font-weight: 500; */
+    color: black;
+    background-color: white;
+    margin: 5%;
+   }
+   
+   .btnx:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+   
+   .btnx:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .btnx::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   .btnx::after {
+    background-color: #fff;
+   }
+   
+   .btnx:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+   @media screen and (max-width:900px){
+    .btnx{
+       width: 25%;
+       font-size: 15px;
+    }
+   }
+   @media screen and (max-width:500px){
+    .btnx{
+       font-size: 10px;
+       height: 9%;
+       width: 30%;
+    }
+   }
+   .part3
+   {
+    height:fit-content;
+    width:100%;
+    /* background-color: grey; */
+    gap:22px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    /* background-color: black; */
+   }
+   .part3_head
+   {
+    height: 15%;
+    width: 60%;
+    /* background-image: url("./season1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    color:#4c9beb;
+    /* background-color: #289ac4; */
+    font-weight: 600;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .part3_sea
+   {
+    width:100%;
+    height:62%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:23px;
+   }
+   .card {
+    width: 350px;
+    height: 235px;
+    position: relative;
+    padding: 25px;
+    background: radial-gradient(178.94% 106.41% at 26.42% 106.41%, #ccc477 0%, rgba(255, 255, 255, 0) 71.88%) , #FFFFFF;
+    box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+    cursor: pointer;
+  }
+  .card1 {
+    width: 350px;
+    height: 235px;
+    position: relative;
+    padding: 25px;
+    background: radial-gradient(178.94% 106.41% at 26.42% 106.41%, #289ac4 0%, rgba(255, 255, 255, 0) 71.88%) , #FFFFFF;
+    box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+    cursor: pointer;
+  }
+  .card2 {
+    width: 350px;
+    height: 235px;
+    position: relative;
+    padding: 25px;
+    background: radial-gradient(178.94% 106.41% at 26.42% 106.41%, #6ebfcc 0%, rgba(255, 255, 255, 0) 71.88%), #FFFFFF;
+    box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card1:hover {
+    transform: scale(1.05);
+  }
+  .card2:hover {
+    transform: scale(1.05);
+  }
+  .container {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background-color: transparent !important;
+    overflow: hidden;
+    box-shadow: none !important ;
+    right: -35px;
+    top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.7);
+  }
+  
+  .cloud {
+    width: 250px;
+  }
+  
+  .front {
+    padding-top: 45px;
+    margin-left: 25px;
+    display: inline;
+    position: absolute;
+    z-index: 11;
+    animation: clouds 8s infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .back {
+    margin-top: -30px;
+    margin-left: 150px;
+    z-index: 12;
+    animation: clouds 12s infinite;
+    animation-timing-function: ease-in-out;
+  }
+  .right-sn
+  {
+    width: 45px;
+    height: 45px;
+    border-radius: 50% 50% 50% 0%;
+    background-color: #4c9beb;
+    display: inline-block;
+    top: 22px;
+    margin-left: 25px;
+    z-index: 5;
+  }
+  .cloud front
+  {
+    position:relative;
+    top:-53px;
+  }
+  .right-front {
+    width: 45px;
+    height: 45px;
+    border-radius: 50% 50% 50% 0%;
+    background-color: #4c9beb;
+    display: inline-block;
+    margin-left: -25px;
+    z-index: 5;
+  }
+  .left-front {
+    width: 65px;
+    height: 65px;
+    border-radius: 50% 50% 0% 50%;
+    background-color: #4c9beb;
+    display: inline-block;
+    z-index: 5;
+  }
+  
+  .right-back {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50% 50% 0%;
+    background-color: #4c9beb;
+    display: inline-block;
+    margin-left: -20px;
+    z-index: 5;
+  }
+  
+  .left-back {
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 50% 0% 50%;
+    background-color: #4c9beb;
+    display: inline-block;
+    z-index: 5;
+  }
+  .cloud_sn
+  {
+    width: 70px;
+    height: 70px;
+    border-radius: 50% 50% 0% 50%;
+    background-color: #4c9beb;
+    display: inline-block;
+    z-index: 5;
+  }
+  .sun {
+    width: 120px;
+    height: 120px;
+    background: -webkit-linear-gradient(to right, #fcbb04, #fffc00);
+    background: linear-gradient(to right, #fcbb04, #fffc00);
+    border-radius: 60px;
+    display: inline;
+    position: absolute;
+  }
+  
+  .sunshine {
+    animation: sunshines 2s infinite;
+  }
+  
+  @keyframes sunshines {
+    0% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+  
+    100% {
+      transform: scale(1.4);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes clouds {
+    0% {
+      transform: translateX(15px);
+    }
+  
+    50% {
+      transform: translateX(0px);
+    }
+  
+    100% {
+      transform: translateX(15px);
+    }
+  }
+  @media screen and (max-width:500px){
+    .temp
+    {
+        font-size: 18px;
+    }
+    
+  }
+  .card-header {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+  }
+  
+  .card-header span:first-child {
+    
+    word-break: break-all;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 135%;
+    color: rgba(6, 6, 6, 0.66);
+  }
+  
+  .card-header span:last-child {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 135%;
+    color: rgba(87, 77, 51, 0.33);
+  }
+  
+  .temp {
+    position: absolute;
+    left: 25px;
+    bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 77px;
+    color: rgba(87, 77, 51, 1);
+  }
+  
+  .temp-scale {
+    width: 80px;
+    height: 36px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 9px;
+  }
+  
+  .temp-scale span {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 134.49%;
+    color: rgba(87, 77, 51, 0.66);
+  }
+   .main3{
+    height: 70%;
+    width: 100%; 
+    /* background-color: pink; */
+    /* margin-left: 5%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+   }
+   .stbox{
+    height: 80%;
+    width: 90%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+
+   }
+   .stb1{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    display: flex;
+   }
+   .stb11{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    background-image: url("https://i.pinimg.com/originals/20/58/7f/20587ff33f0726349e9e8d74d1223ccc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+   }
+   .stb12{
+    height: 100%;
+    width: 60%;
+    /* background-color: aqua; */
+   }
+   .stb112{
+    height: 50%;
+    width: 70%;
+    /* background-color: aliceblue; */
+    backdrop-filter: blur(15px);
+    margin-top: 20%;
+    margin-left: 4%;
+   }
+   .stb2{
+    height: 20%; 
+    width: 100%;
+    /* background-color: #4CAF50; */
+    color: #aeb8fe;
+    display: flex;
+    align-items: center;
+    font-size: 39px;
+   }
+   .stb21{
+    height: 50%;
+    width: 100%;
+    /* background-color: yellow; */
+    color: #f1f2f6;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-align: justify;
+   }
+   .stb22{
+    height: 30%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+   }
+   .stb23{
+    height: 70%;
+    width: 30%;
+    /* border: 2px solid black; */
+   }
+   .stb13{
+    height: 100%;
+    width: 40%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .slick-dots{
+    position: absolute;
+    bottom: 0px;
+   }
+   li button{
+    display: none;
+   }
+   ul{
+    display: flex;
+    color: white;
+    gap: 30px;
+}
+   .btny {
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #40B3A2;
+    /* min-width: 200px; */
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .btny:hover {
+    opacity: .95;
+  }
+  
+  .btny .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+  }
+  
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+  }
+  
+   .poly{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    /* background-color: #4CAF50; */
+    background-image: url("https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/andhra-famous.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 15px;
+    /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+}
+.poly2{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #aeb8fe;
+    background-image: url("https://i.pinimg.com/originals/38/67/18/3867185189e120e7deb5a7cc790b30e9.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: -15%;
+    margin-top: 40%;
+    box-shadow: 2px 2px 15px;
+}
+#stb11img{
+    background-image: url("https://img.veenaworld.com/wp-content/uploads/2020/06/Kodaikanal-1.jpg?imwidth=1080");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg{
+    background-image: url("https://i.redd.it/44g2afmh7my51.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg1{
+    background-image: url("https://www.hlimg.com/images/stories/738X538/Kanchipuram_1429942345e11.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#stb11img2{
+    /* background-image: url("https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/tourist-places-uttar-pradesh.jpg"); */
+    background-image: url("https://e0.pxfuel.com/wallpapers/740/572/desktop-wallpaper-forest-tree-nature-forest-forest-in-uttar-pradesh.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg2{
+    background-image: url("https://www.lifeberrys.com/img/article/uttar-pradesh-5-1638852825-lb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg3{
+    background-image: url("https://media.tripinvites.com/places/agra/agra-taj-mahal-featured.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#stb11img3{
+    background-image: url("https://www.trawell.in/admin/images/upload/080966819Lonavala_Main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg4{
+    background-image: url("https://www.india-tours.com/images/states-images/maharashtra.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg5{
+    background-image: url("https://www.educba.com/academy/wp-content/uploads/2023/02/Tourist-Places-in-Maharashtra-8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#stb11img4{
+    background-image: url("https://www.tourmyindia.com/blog/wp-content/uploads/2020/12/Srinagar-Jammu-Kashmir-Feature.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg6{
+    background-image: url("https://www.rajasthantourplanner.com/blog/wp-content/uploads/2017/04/sonmarg--1024x768.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg7{
+    background-image: url("https://wallpapercave.com/wp/wp2678269.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#stb11img5{
+    background-image: url("https://wallpapercave.com/wp/wp9429886.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg8{
+    background-image: url("https://adventuresome.in/wp-content/uploads/2020/04/humayun-tomb-Delhi-min-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg9{
+    background-image: url("https://www.planetware.com/photos-large/IND/india-delhi-qutub-minar.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+button.next.slick-arrow{
+    display:none !important;
+}
+button.prev.slick-arrow{
+    display:none !important;
+}
+.main5{
+    height: 18%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .vlogs{
+    height: 100px;
+    width: fit-content;
+    background-color: #40B3A2;
+    display: flex;
+    margin-bottom: 5%;
+}
+.g{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 2px;
+}
+#g1{
+    background-image: url("vlog1.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g2{
+    background-image: url("vlog2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g3{
+    background-image: url("vlog3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g4{
+    background-image: url("vlog4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g5{
+    background-image: url("vlog5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g6{
+    background-image: url("vlog6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g7{
+    background-image: url("vlog7.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+.vlogs{
+    height: 40%;
+    width: 100%;
+    /* background-color: #289ac4; */
+    background-image: url("https://www.pngall.com/wp-content/uploads/8/Travel-PNG-Picture.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background: #170343;
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+}
+
+.footer-section h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    color: #bbb;
+    font-size: 1em;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    background: #6b6767;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials a:hover {
+    background: #fff;
+    color: #333;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.contact-form .contact-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #444;
+    color: #fff;
+}
+
+.contact-form .btn {
+    display: inline-block;
+    background: #6b6767;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-form .btn:hover {
+    background: #fff;
+    color: #333;
+}
+
+.footer-bottom {
+    background: #444;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+/* @media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+} */
+
+@media (max-width: 480px) {
+    .footer-section h2 {
+        font-size: 1.2em;
+    }
+
+    .footer-section p, .footer-section ul li, .footer-section ul li a {
+        font-size: 0.9em;
+    }
+
+    .socials a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 0.8em;
+    }
+
+    .contact-form .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .contact-form .contact-input {
+        padding:8px;
+   }
+}
+
+
+@media screen and (max-width:900px){
+    .part3_head{
+        width: 80%;
+    }
+    .stb2{
+        font-size: 23px;
+    }
+    .stb21{
+        font-size: 11px;
+    }
+    .stb112{
+        width: 80%;
+        height: 50%;
+        margin-top: 40%;
+    }
+    .stb23{
+        width: 40%;
+    }
+    .poly{
+        height: 60%;
+    }
+    .poly2{
+        height: 30%;
+        margin-top: 70%;
+        margin-left: -30%;
+    }
+}
+@media screen and (max-width:600px){
+    .part3_head{
+        font-size: 28px;
+        width: 90%;
+    }
+    .main3{
+        height: 50%;
+    }
+    .stbox{
+        height: 60%;
+        width: 90%;
+    }
+    .main5{
+        height: 10%;
+    }
+    .stb2{
+        font-size: 16px;
+        height: fit-content;
+        width: fit-content;
+        margin: 12px;
+    }
+    .stb21{
+        font-size: 8px;
+        height: 60%;
+    }
+    .stb112{
+        height: 60%;
+        width: 97%;
+        margin-top: 20%;
+    }
+    .stb23{
+        width: 60%;
+    }
+    .poly{
+        height: 50%;
+    }
+    .vlogs{
+        height: 30%;
+    }
+}
+
+@media screen and (max-width:950px){
+    .a12{
+        display: none !important;
+    }
+}

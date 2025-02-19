@@ -1,0 +1,347 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="./jammu.css"/>
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+        <div class="state">
+            <div class="statehead">TAMILNADU</div>
+            <div class="statematter">
+                <div class="statematter1">
+                    <div class="st1">Tamil Nadu, located in southern India, is renowned for its rich cultural heritage, classical music, and traditional dance forms like Bharatanatyam. The state boasts magnificent temples with Dravidian architecture, such as the Meenakshi Temple in Madurai. Tamil Nadu is also famous for its delicious cuisine, featuring dishes like dosa, idli, and sambar. The scenic landscapes, from the Nilgiri Hills to the beaches of Chennai, add to its charm.   </div>
+                </div>
+                <div class="statematter2">
+                    <div class="stimg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_TEqOCIQXyEooddTeUGU_n3PsXaPNiy3I8YBX5hyF8MxJlVfGNoSirhDnX01iOXgyQ34&usqp=CAU">
+                        <div class="stimg1">
+                            <img src="https://i.pinimg.com/originals/24/e2/be/24e2beb97208cd169ea7b49e584b291b.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="statefood">
+                <div class="stfood1">
+                    <div class="foodbut">
+                        <button  onclick="displayPlaces()">TOURIST PLACES</button>
+                    </div>
+                    <div class="divinebut">
+                        <button onclick="displayFood()">FAMOUS FOOD</button>
+                    </div>
+                    <div class="famousbut">
+                        <button onclick="displayDivine()">DIVINE PLACES</button>
+                    </div>
+                </div>
+                <div class="stfood2">
+                    <div class="stf1">
+                        <div class="stf11">
+                            <div class="stf2">
+                                <div class="foodname">DOSA</div>
+                                <div class="fooddes">Dosa is a popular South Indian dish made from fermented rice and urad dal batter, cooked into a thin, crispy crepe. It is typically served with sambar (a spiced lentil stew) and various chutneys.</div>
+                                <div class="explore">
+                                    <a style="--clr: #7808d0" class="button1" href="#">
+                                        <span class="button__icon-wrapper">
+                                            <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                            </svg>
+                                            
+                                            <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                            </svg>
+                                        </span>
+                                        Explore All
+                                    </a>
+                                 </div>
+                            </div>
+                            <div class="stf21">
+                                <img src="https://t3.ftcdn.net/jpg/00/37/81/84/360_F_37818424_iEAeI3ngDZ3pNwQ8iZvm2AIDzVDRQmhz.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stf1">
+                        <div class="stf11 stf12" >
+                            <div class="stf2" >
+                                <div class="foodname">IDLI</div>
+                                <div class="fooddes">Idli is a traditional South Indian dish made from fermented rice and urad dal batter, steamed into soft, fluffy cakes. It is commonly served with sambar and chutneys for a nutritious and flavorful meal.</div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stf21">
+                                <img src="https://t3.ftcdn.net/jpg/01/42/70/66/360_F_142706641_pDs13MNNEkoP8fmLkqmbFf7rnEq1zNwe.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stf1">
+                        <div class="stf11" id="stf13">
+                            <div class="stf2">
+                                <div class="foodname">SAMBHAR</div>
+                                <div class="fooddes">Sambar is a hearty South Indian stew made from lentils, vegetables, tamarind, and a blend of spices. It is commonly enjoyed with rice, dosa, or idli, adding a tangy and spicy flavor to the meal.</div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stf21">
+                                <img src="https://t4.ftcdn.net/jpg/00/53/84/51/360_F_53845173_DcSSmXY3vo6KEBRRMA7IfAkYQLBSIt7M.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stf1">
+                        <div class="stf11 stf12" >
+                            <div class="stf2">
+                                <div class="foodname">BIRYANI</div>
+                                <div class="fooddes">Biryani is a flavorful rice dish cooked with spices, meat, or vegetables. It features aromatic basmati rice layered with a rich blend of spices, herbs, and sometimes saffron, creating a fragrant and savory meal.</div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stf21">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxuSZR8wxs3NV-M_wXoEY0akT2SQICXj3HcA&s" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stdivine">
+                    <div class="std1">
+                        <div class="stf11">
+                            <div class="std2">
+                                <div class="divinename">MEENAKSHI TEMPLE</div>
+                                <div class="divinedes">The Meenakshi Temple in Madurai, Tamil Nadu, is a stunning Dravidian-style temple dedicated to Goddess Meenakshi and Lord Sundareswarar. Known for its towering gopurams adorned with intricate sculptures, it is a major pilgrimage site and cultural symbol </div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="std21">
+                                <img src="https://t4.ftcdn.net/jpg/05/02/70/43/360_F_502704383_aRNoCa5y96HcSQyqjGZwq3ZQuumijANE.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="std1">
+                        <div class="stf11 stf12">
+                            <div class="std2" >
+                                <div class="divinename">COIMBATORE</div>
+                                <div class="divinedes">Coimbatore, located in Tamil Nadu, is a bustling city known for its thriving textile industry and educational institutions. It serves as a gateway to the picturesque hill station of Ooty and is renowned for its pleasant climate and vibrant culture. The city also boasts landmarks like the Marudamalai Temple and the Dhyanalinga Yogic Temple.</div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="std21">
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a21cfdc2-1c17-4887-8bc0-88de589c1859/dgr6y3p-b9bc0338-d0e6-4a80-8696-84a4f5496f2e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EyMWNmZGMyLTFjMTctNDg4Ny04YmMwLTg4ZGU1ODljMTg1OVwvZGdyNnkzcC1iOWJjMDMzOC1kMGU2LTRhODAtODY5Ni04NGE0ZjU0OTZmMmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.p-FN2Evv0ML_zcsz8FLRdW9UDHEroozouFiYgwQVWN4" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="std1">
+                        <div class="stf11" >
+                            <div class="std2" >
+                                <div class="divinename">RAMESHWARAM TEMPLE</div>
+                                <div class="divinedes">Rameswaram, in Tamil Nadu, is a significant pilgrimage site known for the Ramanathaswamy Temple. It's also famous for the Pamban Bridge, which connects the island to mainland India.</div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="std21">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRacBQUOQ4WkLnzFc_M-8C2BDvVLiFSp0J0Rl1WFdpQ6PLejFWCN4AaNNIjfqNGbLdzqdA&usqp=CAU" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="std1">
+                        <div class="stf11 stf12" >
+                            <div class="std2" >
+                                <div class="divinename">ST. MARY'S CHURCH</div>
+                                <div class="divinedes">St. Mary’s Church in Tamil Nadu, located in Chennai, is a historic Roman Catholic church known for its Gothic architecture and serene ambiance. It is one of the oldest churches in the region, serving as an important spiritual and historical landmark.</div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="std21">
+                                <img src="https://www.mapsofindia.com/ci-moi-images/my-india/Velankanni-Church.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stfamous">
+                    <div class="stfa1">
+                        <div class="stf11">
+                            <div class="stfa2">
+                                <div class="famousname">CHENNAI</div>
+                                <div class="famousdes">Marina Beach, located in Chennai, Tamil Nadu, is one of the longest urban beaches in the world. Known for its golden sands and scenic coastline along the Bay of Bengal, it attracts numerous visitors daily.</div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="./chennai.html">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stfa21">
+                                <img src="https://www.shutterstock.com/shutterstock/videos/1105237135/thumb/1.jpg?ip=x480" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stfa1">
+                        <div class="stf11 stf12">
+                            <div class="stfa2" >
+                                <div class="famousname">RAMESWARAM BRIDGE</div>
+                                <div class="famousdes">Rameswaram Bridge, also known as Pamban Bridge, connects the island of Rameswaram to mainland India. This engineering marvel spans the Palk Strait and is a crucial link for both road and rail transport.  </div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="./nagpur.html">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stfa21">
+                                <img src="https://live.staticflickr.com/725/21194296501_e16b90d486_b.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stfa1">
+                        <div class="stf11" >
+                            <div class="stfa2" >
+                                <div class="famousname">KODAIKANAL</div>
+                                <div class="famousdes">Kodaikanal, known as the "Princess of Hill Stations," is a popular hill station in Tamil Nadu. Nestled in the Western Ghats, it features attractions like Kodaikanal Lake, Bryant Park, and Pillar Rocks. It offers a cool climate and scenic landscapes, making it a peaceful retreat.</div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="./kodikanal.html">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stfa21">
+                                <img src="https://media.istockphoto.com/id/1175506409/photo/small-village-amidst-terrace-farms-on-hills-of-kodaikanal-tamil-nadu.jpg?s=612x612&w=0&k=20&c=E_SZ5ejTB3kuHej2RMX6HAWq26V3n0Jyfx4nSxs5rUY=" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stfa1">
+                        <div class="stf11 stf12" >
+                            <div class="stfa2" >
+                                <div class="famousname">OOTY</div>
+                                <div class="famousdes">Ooty, a hill station in Tamil Nadu, is known for its cool climate and scenic beauty. Key attractions include Ooty Lake, Botanical Gardens, and Dodabetta Peak.    </div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="./ooty.html">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stfa21">
+                                <img src="https://c0.wallpaperflare.com/preview/163/513/284/ooty-india-hills-station-nature.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src="./jammu.js"></script>
+    </body>
+    
+</html>

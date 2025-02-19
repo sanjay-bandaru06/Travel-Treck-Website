@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/> */
+body
+{
+    width:100%;
+    height:100svh;
+    background-image: url("https://themysteriousworld.com/wp-content/uploads/2014/06/LONDONeye-768x532.jpg");
+    background-size: 100%  100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body img{
+    width: 100%;
+    height: 100%;
+}
+.login_page
+{
+    width:600px;
+    height:700px;
+    border-radius: 8px;
+    border:2px solid white;
+    /* background-color: aqua; */
+    backdrop-filter: blur(5px);
+    display:flex;
+    /* display:none; */
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.close
+{
+    width:100%;
+    height:10%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.login_close
+{
+    width:39px;
+    height: 35px;
+    background-color: rgb(189, 7, 7);
+    font-size: 26px;
+    /* position: relative; */
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 22px;
+    height: fit-content;
+}
+
+.user_name
+{
+    width:100%;
+    height:13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input
+{
+    font-size: 22px;
+    border-radius: 3px;
+    color:black;
+    border:1px solid black;
+    background-color: transparent;
+    padding: 5px;
+    
+}
+.login1
+{
+    width:100%;
+    height:15%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input::placeholder
+{
+    color:rgb(226, 223, 223);
+}
+.reminder
+{
+    font-size: 20px;
+    
+}
+.forgot
+{
+    font-size: 20px;
+}
+
+.loginbtn
+{
+    width:40%;
+    height:10%;
+    border-radius: 33px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    background-color: rgb(53, 42, 108);
+    margin-left: 30%;
+}
+.loginbtn:hover{
+    cursor: pointer;
+}
+
+.login_last
+{
+    width:100%;
+    height:9%; 
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+}
+.login_last a{
+    color: white;
+    font-size: 15px;
+}
+@media screen and (max-width:500px){
+    .login_page{
+        width: 400px;
+        height: 500px;
+    }  
+    .reminder, .forgot{
+        font-size: 15px;
+    }  
+    .loginbtn{
+        width: 50%;
+    }
+    .login_last{
+        font-size: 15px;
+    }
+}
+.login_logo
+{
+    width:100%;
+    height:15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:23px;
+}
+.logo1
+{
+    font-size: 28px;
+}
+.login_last button
+{
+    background-color: transparent;
+    border:0px solid white;
+}
+.error_message {
+            color: red;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+        <div class="login_page">
+            <div class="close"><div class="login_close" onclick="displayHome()"><i class="fa-solid fa-xmark"></i></div></div>
+            <div class="login"><h2>LOGIN</h2></div>
+            <div class="user_name"><input type="text" id="loginEmail" placeholder="Email" style="height: 60%;width: 80%;"></div>
+            <div class="user_name"><input type="password" id="loginPassword" placeholder="Password" style="height: 60%;width: 80%;">
+            </div>
+            <div class="login1">
+                <div class="reminder"><i class="fa-regular fa-square"></i>&nbsp;Remember Me</div>
+                <div class="forgot">Forget Password?</div>
+            </div>
+            <div id="loginMessage" class="error_message"></div>
+           <div class="loginbtn" onclick="displaySearch()">Login</div>
+            <div class="login_last">Don't have an account?<a href="travelSignup.html" target="_self">Register/Sign-up</a></div>
+            <div class="login_logo">
+                <div class="logo1"><i class="fa-brands fa-google"></i></div>
+                <div class="logo1"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="logo1"><i class="fa-brands fa-facebook"></i></div>
+                <div class="logo1"><i class="fa-brands fa-x-twitter"></i></div>
+            </div>
+        </div>
+        <!-- </div> -->
+         <script>
+            function displaySearch(){
+                const loginEmail = document.getElementById('loginEmail').value;
+                const loginPassword = document.getElementById('loginPassword').value;
+
+            const user = JSON.parse(localStorage.getItem('user'));
+
+            if (user && user.email === loginEmail && user.password === loginPassword) {
+                window.location.href = "mainPage.html";
+            } else {
+                document.getElementById('loginMessage').textContent = 'Invalid email or password!';
+            }
+            }
+            function displayHome(){
+                window.location.href = "firstPage.html";
+            }
+         </script>
+         <script src="./mainPage.js"></script>
+</body>
+</html

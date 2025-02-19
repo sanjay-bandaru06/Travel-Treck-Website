@@ -1,0 +1,288 @@
+.main3{
+    height: 70%;
+    width: 90%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+   }
+   .stbox{
+    height: 80%;
+    width: 90%;
+    border: 2px solid black;
+   }
+   .stb1{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    display: flex;
+   }
+   .stb11{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    background-image: url("https://i.pinimg.com/originals/20/58/7f/20587ff33f0726349e9e8d74d1223ccc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+   }
+   .stb12{
+    height: 100%;
+    width: 60%;
+    /* background-color: aqua; */
+   }
+   .stb112{
+    height: 50%;
+    width: 70%;
+    /* background-color: aliceblue; */
+    backdrop-filter: blur(15px);
+    margin-top: 20%;
+    margin-left: 4%;
+   }
+   .stb2{
+    height: 20%;
+    width: 100%;
+    /* background-color: #4CAF50; */
+    color: #aeb8fe;
+    display: flex;
+    align-items: center;
+    font-size: 39px;
+   }
+   .stb21{
+    height: 50%;
+    width: 100%;
+    /* background-color: yellow; */
+    color: #f1f2f6;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-align: justify;
+   }
+   .stb22{
+    height: 30%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+   }
+   .stb23{
+    height: 70%;
+    width: 30%;
+    /* border: 2px solid black; */
+   }
+   .stb13{
+    height: 100%;
+    width: 40%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .btn {
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #40B3A2;
+    /* min-width: 200px; */
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: .95;
+  }
+  
+  .btn .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+  }
+ 
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+  }
+  
+   .poly{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    /* background-color: #4CAF50; */
+    background-image: url("https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/andhra-famous.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 15px;
+    /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+}
+.poly2{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #aeb8fe;
+    background-image: url("https://i.pinimg.com/originals/38/67/18/3867185189e120e7deb5a7cc790b30e9.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: -15%;
+    margin-top: 40%;
+    box-shadow: 2px 2px 15px;
+}
+#stb11img{
+    background-image: url("https://img.veenaworld.com/wp-content/uploads/2020/06/Kodaikanal-1.jpg?imwidth=1080");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg{
+    background-image: url("https://i.redd.it/44g2afmh7my51.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg1{
+    background-image: url("https://www.hlimg.com/images/stories/738X538/Kanchipuram_1429942345e11.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#stb11img2{
+    /* background-image: url("https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/tourist-places-uttar-pradesh.jpg"); */
+    background-image: url("https://www.mistay.in/travel-blog/content/images/2020/06/cherrapunjee-nohkalikai-waterfalls-147716414403-orijgp-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg2{
+    background-image: url("https://www.lifeberrys.com/img/article/uttar-pradesh-5-1638852825-lb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg3{
+    background-image: url("https://media.tripinvites.com/places/agra/agra-taj-mahal-featured.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#stb11img3{
+    background-image: url("https://www.trawell.in/admin/images/upload/080966819Lonavala_Main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg4{
+    background-image: url("https://www.india-tours.com/images/states-images/maharashtra.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg5{
+    background-image: url("https://www.educba.com/academy/wp-content/uploads/2023/02/Tourist-Places-in-Maharashtra-8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#stb11img4{
+    background-image: url("https://www.tourmyindia.com/blog/wp-content/uploads/2020/12/Srinagar-Jammu-Kashmir-Feature.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg6{
+    background-image: url("https://www.rajasthantourplanner.com/blog/wp-content/uploads/2017/04/sonmarg--1024x768.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg7{
+    background-image: url("https://wallpapercave.com/wp/wp2678269.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#stb11img5{
+    background-image: url("https://wallpapercave.com/wp/wp9429886.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg8{
+    background-image: url("https://adventuresome.in/wp-content/uploads/2020/04/humayun-tomb-Delhi-min-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#polyimg9{
+    background-image: url("https://www.planetware.com/photos-large/IND/india-delhi-qutub-minar.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+   .prev{
+    height: 15%;
+    width: 10%;
+    border-radius: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    position:absolute;
+    top: 50%;
+    left:-8%;
+}
+.next{
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    right: -13%;
+}
+@media screen and (max-width:900px){
+    .stb2{
+        font-size: 23px;
+    }
+    .stb21{
+        font-size: 11px;
+    }
+    .stb112{
+        width: 80%;
+        height: 50%;
+        margin-top: 40%;
+    }
+    .stb23{
+        width: 40%;
+    }
+    .poly{
+        height: 60%;
+    }
+    .poly2{
+        height: 30%;
+        margin-top: 70%;
+        margin-left: -30%;
+    }
+}
+@media screen and (max-width:600px){
+    .stbox{
+        height: 60%;
+    }
+    .stb2{
+        font-size: 16px;
+    }
+    .stb21{
+        font-size: 8px;
+    }
+    .stb112{
+        height: 40%;
+        margin-top: 60%;
+    }
+    .stb23{
+        width: 60%;
+    }
+    .poly{
+        height: 50%;
+    }
+}

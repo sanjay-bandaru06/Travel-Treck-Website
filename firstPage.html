@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick-1.8.1/slick/slick.css" />
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+        <link rel="stylesheet" href="./firstPage.css" />
+        
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 0px solid #ccc;
+        border-radius: 4px;
+    }
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            <div class="a1">
+                <div class="a11">
+                    <div class="b"></div>
+                </div>
+                <!-- <div class="a12">
+                    <div id="b11">HOME</div>
+                    <div id="b12">ABOUT US</div>
+                    <div id="b13">SEASONS</div>
+                    <div id="b14">VLOGS</div>
+                    <div id="b14">CONTACT US</div>
+                </div> -->
+                <!-- <div class="search">
+                    <div class="a15">
+                        <div class="a152"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div class="a151">
+                             <select onchange="location=this.value">
+                                <option>Select one</option>
+                                <option value="andhra.html">AndhraPradesh</option>
+                                <option value="delhi23.html">Delhi</option>
+                                <option value="uttarprdesh.html">Uttarpradesh</option>
+                                <option value="maha23.html">Maharashtra</option>
+                                <option value="tamilnadu.html">Tamilnadu</option>
+                                <option value="jammu.html">Jammu And Kashmir</option>
+                             </select>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="a13">
+                    <div class="b2" onclick="displayLogin()"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;LOGIN</div>
+                </div>
+            </div>
+            <div class="travel">Explore beyond boundaries with <b>Travel Trek</b> by your side.</div>
+            <div class="travel1">~ The world is waiting for you.</div>
+        </div>
+        <script src="./firstPage.js"></script>
+        <script>
+            ScrollReveal({
+                reset: true,
+                distance: '60px',
+                duration: 2500,
+                delay: 400
+            });
+            ScrollReveal().reveal('.travel', { delay: 500 ,origin:'left'});
+            ScrollReveal().reveal('.travel1', { delay: 500});
+        </script>
+    </body>
+</html>

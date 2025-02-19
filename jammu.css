@@ -1,0 +1,670 @@
+/* body{
+    background-image: url("https://cdn.wallpapersafari.com/62/38/BR1Yfj.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+.state{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.statehead{
+    height: fit-content;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:#27187E;
+}
+.statematter{
+    height: fit-content;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.statematter1{
+    height: 450px;
+    width: 800px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.st1{
+    height: fit-content;
+    width: 90%;
+    /* border: 2px solid black; */
+    font-size: 18px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.statematter2{
+    height: 450px;
+    width: 650px;  
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stimg{
+    height: 90%;
+    width: 70%;
+    /* background-color: black;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* filter: drop-shadow(2px 2px 3px black); */
+    position: relative;
+}
+.stimg img{
+    height: 100%;
+    width: 100%;
+}
+.stimg1{
+    height: 100%;
+    width: 80%;
+    margin-right: 10%;
+    /* background-color: black; */
+    filter: drop-shadow(5px 10px 9px black);
+    position: absolute;
+    z-index: 2;
+}
+.stimg1 img{
+    height: 100%;
+    width: 100%;
+}
+.statefood{
+    height: 50%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+.stfood1{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    /* background-color:bisque; */
+}
+.foodbut{
+    height: 100%;
+    width: 18%;
+    /* background-color: rgb(210, 206, 206); */
+    /* background-color: #aeb8fe; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+    color: black;
+}
+button {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background:linear-gradient(to bottom,lightblue,white);
+    color: black;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    /* background-color: white; */
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    /* background-color: white; */
+    transition: 0.5s;
+  }
+  
+  button:hover::before, button:hover::after {
+    transform: scale(0)
+  }
+  
+  button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }
+/* .foodbut:hover{
+    background-color: white;
+    border-top: 4px solid blue ;
+    cursor: pointer;
+} */
+.divinebut{
+    height: 100%;
+    width: 18%;
+    /* background-color: rgb(210, 206, 206); */
+    /* background-color: #aeb8fe; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+/* .divinebut:hover{
+    background-color: white;
+    border-top: 4px solid blue ;
+    cursor: pointer;
+} */
+.famousbut{
+    height: 100%;
+    width: 18%;
+    /* background-color: rgb(210, 206, 206); */
+    /* background-color: #aeb8fe; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+/* .famousbut:hover{
+    background-color: white;
+    border-top: 4px solid blue;
+    cursor: pointer;
+} */
+.stfood2{
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    display: none;
+    /* background-color: aqua; */
+}
+.stdivine{
+    height: fit-content;
+    width: 100%;
+    /* background-color: #0e27de; */
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    display: none;
+}
+.stfamous{
+    height: fit-content;
+    width: 100%;
+    /* background-color: #aeb8fe; */
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    display: block;
+}
+.stf1{
+    height: 300px;
+    width: 100%;
+    /* background-color: beige; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+.stf11{
+    height: 80%;
+    width: 70%;
+    /* background-color:blueviolet; */
+    display: flex;
+    box-shadow: 9px 9px 15px black;
+}
+/* .stf11:hover{
+    transform: translateX(200px);
+} */
+.stf2{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    /* border-top: 2px solid black;
+    border-left: 2px solid black; */
+    /* box-shadow: 2px 2px 30px black; */
+}
+.explore{
+    height: 10%;
+    width: 30%;
+    /* border: 2px solid black; */
+    margin: 3%;
+}
+@media screen and (max-width:500px) {
+    .explore
+    {
+        width:50%;
+    }
+    
+}
+.button1 {
+    line-height: 1;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: .75rem;
+    background-color: var(--clr);
+    color: #fff;
+    border-radius: 10rem;
+    font-weight: 600;
+    padding: .75rem 1.5rem;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color .3s;
+  }
+  
+  .button__icon-wrapper {
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    color: var(--clr);
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .button1:hover {
+    background-color: #000;
+  }
+  
+  .button1:hover .button__icon-wrapper {
+    color: #000;
+  }
+  
+  .button__icon-svg--copy {
+    position: absolute;
+    transform: translate(-150%, 150%);
+  }
+  
+  .button1:hover .button__icon-svg:first-child {
+    transition: transform .3s ease-in-out;
+    transform: translate(150%, -150%);
+  }
+  
+  .button1:hover .button__icon-svg--copy {
+    transition: transform .3s ease-in-out .1s;
+    transform: translate(0);
+  }
+.foodname{
+    height: 5%;
+    width: 60%;
+    /* border: 2px solid black; */
+    margin: 3%;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    color:#27187E;
+    cursor: pointer;
+}
+.fooddes{
+    height: 42%;
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: rgb(113, 113, 113);
+    cursor: pointer;
+}
+.stf21{
+    height: 100%;
+    width: 40%;
+    background-color: grey;
+    /* background-image: url("http://spicyskillet.com/wp-content/uploads/2016/02/Pulihora-768x515.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.stf21 img{
+    width: 100%;
+    height: 100%;
+}
+
+.stf12{
+    margin-left: 30%;
+    box-shadow: -9px 9px 15px black;
+}
+/* .stf12:hover{
+    transform: translateX(-300px);
+    transition: all 1s linear;
+    transform: scale(1.02);
+} */
+.std1{
+    height: 300px;
+    width: 100%;
+    /* background-color: beige; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+.std11{
+    height: 80%;
+    width: 60%;
+    /* background-color:blueviolet; */
+    display: flex;
+    /* box-shadow: 17px 12px 30px black; */
+}
+.std2{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    /* border-top: 2px solid black;
+    border-left: 2px solid black; */
+    /* box-shadow: 2px 2px 30px black; */
+}
+.divinename{
+    height: 5%;
+    width: 60%;
+    /* border: 2px solid black; */
+    margin: 3%;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    color:#27187E;
+    cursor: pointer;
+}
+.divinedes{
+    height: 42%;
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: rgb(113, 113, 113);
+    cursor: pointer;
+}
+.std21{
+    height: 100%;
+    width: 40%;
+    background-color: grey;
+    /* background-image: url("http://spicyskillet.com/wp-content/uploads/2016/02/Pulihora-768x515.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.std21 img{
+    width: 100%;
+    height: 100%;
+}
+.std12{
+    margin-left: 40%;
+    /* box-shadow: -17px 12px 30px black; */
+}
+
+.stfa1{
+    height: 300px;
+    width: 100%;
+    /* background-color: beige; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+.stfa11{
+    height: 80%;
+    width: 60%;
+    /* background-color:blueviolet; */
+    display: flex;
+    /* box-shadow: 17px 12px 30px black; */
+}
+.stfa2{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    /* border-top: 2px solid black;
+    border-left: 2px solid black; */
+    /* box-shadow: 2px 2px 30px black; */
+}
+.famousname{
+    height: 5%;
+    width: 60%;
+    /* border: 2px solid black; */
+    margin: 3%;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    color:#27187E;
+    cursor: pointer;
+}
+.famousdes{
+    height: 42%;
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: rgb(113, 113, 113);
+    cursor: pointer;
+}
+.stfa21{
+    height: 100%;
+    width: 40%;
+    background-color: grey;
+    /* background-image: url("http://spicyskillet.com/wp-content/uploads/2016/02/Pulihora-768x515.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.stfa21 img{
+    width: 100%;
+    height: 100%;
+}
+.stfa12{
+    margin-left: 40%;
+    /* box-shadow: -17px 12px 30px black; */
+}
+@media screen and (max-width:900px){
+    /* .statematter1{
+        width: 400px;
+    }
+    .statematter2{
+        width: 300px;
+    } */
+   .st1{
+         font-size: 14px;
+   }
+   .stimg{
+    width: 80%;
+   }
+   .stimg1{
+     width: 100%;
+   }
+   .foodbut{
+     font-size: 13px;
+     width: 30%;
+   }
+   .divinebut{
+    font-size: 13px;
+    width: 30%;
+   }
+   .famousbut{
+    font-size: 13px;
+    width: 30%;
+   }
+   .stf11{
+    width: 80%;
+   }
+   .stf12{
+    width: 80%;
+    margin-left: 20%;
+   }
+   .stf14{
+    width: 80%;
+    margin-left: 20%;
+   }
+   .stfa1{
+     height: 250px;
+   }
+   .stf1{
+    height: 250px;
+   }
+   .std1{
+    height: 250px;
+   }
+   .foodname{
+    font-size: 22px;
+    width: 80%;
+   }
+   .fooddes{
+    font-size: 12px;
+   }
+   .famousname{
+    font-size: 22px;
+   }
+   .famousdes{
+    font-size: 12px;
+   }
+   .divinename{
+    font-size: 22px;
+    width: 80%;
+   }
+   .divinedes{
+    font-size: 12px;
+   }
+    .button1 {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:700px){
+    .statematter1{
+        width: 100%;
+        height: 60%;
+    }
+    .statematter2{
+        width: 100%;
+    }
+    .foodbut{
+        font-size: 10px;
+        width: 30%;
+    }
+    .divinebut{
+        font-size: 10px;
+        width: 20%;
+    }
+    .famousbut{
+        font-size: 10px;
+        width: 20%;
+    }
+    .stf11{
+        width: 100%;
+    }
+    .stf12{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .statematter{
+        display: flex;
+        flex-direction: column;
+    }
+    .foodname{
+        font-size: 20px;
+        width: 80%;
+       }
+       .fooddes{
+        font-size: 12px;
+       }
+       .famousname{
+        font-size: 20px;
+        width: 80%;
+       }
+       .famousdes{
+        font-size: 12px;
+       }
+       .divinename{
+        font-size: 20px;
+        width: 80%;
+       }
+       .divinedes{
+        font-size: 12px;
+       }
+       .button1 {
+        padding: 2px 5px;
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .statehead{
+        font-size: 30px;
+        margin-bottom: 2%;
+    }
+    .statematter2{
+        width: 100%;
+    }
+    .foodbut{
+        font-size: 10px;
+        width: 39%;
+    }
+    .divinebut{
+        font-size: 10px;
+        width: 35%;
+    }
+    .famousbut{
+        font-size: 10px;
+        width: 35%;
+    }
+    .stf11{
+        width: 100%;
+        box-shadow: none;
+        box-shadow: 2px 2px 15px black;
+    }
+    .stf12{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .statematter{
+        display: flex;
+        flex-direction: column;
+    }
+       .famousname ,.foodname ,.divinename
+       {
+           height:15%;
+           font-size: 17px;
+       } 
+       .famousdes ,.divinedes ,.fooddes
+       {
+           height:56%;
+           font-size: 11px;
+       } 
+       .button1 {
+        /* padding: 2px 5px; */
+        font-size: 10px;
+        height: 140%;
+        width: 80%;
+    }
+}
+@media screen and (max-width:438px){
+    .button1{
+        font-size: 7px;
+    }
+}

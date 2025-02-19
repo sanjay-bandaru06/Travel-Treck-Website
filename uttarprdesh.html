@@ -1,0 +1,349 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="./jammu.css"/>
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+        <div class="state">
+            <div class="statehead">UTTAR PRADHESH</div>
+            <div class="statematter">
+                <div class="statematter1">
+                    <div class="st1">Uttar Pradesh, located in northern India, is a state rich in cultural heritage and historical significance. 
+                        It is home to the iconic Taj Mahal, a UNESCO World Heritage Site, and the spiritual city of Varanasi, renowned for its 
+                        ghats along the Ganges River. The state is famous for its diverse cuisine, including delectable kebabs and vibrant street food. Uttar Pradesh also holds a significant place in Indian mythology with sacred sites like Ayodhya and Mathura.</div>
+                </div>
+                <div class="statematter2">
+                    <div class="stimg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ79zExuOXRuUIWFD8krpA1OEG62QVbIkiD5g&s">
+                        <div class="stimg1">
+                            <img src="https://pmaprayagraj.org.in/Content/img/pma-an27-index/pma-an27-mela_icon001.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="statefood">
+                <div class="stfood1">
+                    <div class="foodbut">
+                        <button  onclick="displayPlaces()">TOURIST PLACES</button>
+                    </div>
+                    <div class="divinebut">
+                        <button onclick="displayFood()">FAMOUS FOOD</button>
+                    </div>
+                    <div class="famousbut">
+                        <button onclick="displayDivine()">DIVINE PLACES</button>
+                    </div>
+                </div>
+                <div class="stfood2">
+                    <div class="stf1">
+                        <div class="stf11">
+                            <div class="stf2">
+                                <div class="foodname">KEBABS</div>
+                                <div class="fooddes">Kebabs, especially those from Lucknow, are renowned for their rich flavors and tender texture. These savory skewered meats are marinated in a blend of spices and cooked over a charcoal grill, creating a delectable and aromatic dish. Tunday Kebabs, a specialty of Lucknow, are particularly famous for their melt-in-mouth quality.</div>
+                                <div class="explore">
+                                    <a style="--clr: #7808d0" class="button1" href="#">
+                                        <span class="button__icon-wrapper">
+                                            <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                            </svg>
+                                            
+                                            <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                            </svg>
+                                        </span>
+                                        Explore All
+                                    </a>
+                                 </div>
+                            </div>
+                            <div class="stf21">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO52Y5D2dyFW7oCxFHILsfcCcOxuyaWP-KAQ&s" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stf1">
+                        <div class="stf11 stf12" >
+                            <div class="stf2" >
+                                <div class="foodname">CHAAT</div>
+                                <div class="fooddes">Chaat is a popular Indian street food featuring a mix of spicy, tangy, and sweet flavors. Varieties like Aloo Tikki and Pani Puri combine ingredients like potatoes, chickpeas, and tamarind chutney for a flavorful, textural snack. </div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stf21">
+                                <img src="https://thumbs.dreamstime.com/b/indian-tea-time-snacks-chole-chaat-made-boiled-chickpea-curry-samosa-curd-mint-chutney-tamarind-chutney-indian-snacks-chole-109155914.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stf1">
+                        <div class="stf11" id="stf13">
+                            <div class="stf2">
+                                <div class="foodname">MALAIYO</div>
+                                <div class="fooddes">Malaiyo is a seasonal dessert from Varanasi made from frothy milk, often flavored with saffron. It is light, creamy, and served chilled, making it a refreshing treat, especially during winter.</div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stf21">
+                                <img src="https://staticimg.amarujala.com/assets/images/2019/04/07/malaiyo-sweet_1554640367.jpeg?w=414&dpr=1.0" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stf1">
+                        <div class="stf11 stf12" >
+                            <div class="stf2">
+                                <div class="foodname">MALAI PEDA</div>
+                                <div class="fooddes">Varanasi has a reputation as a sweet spot, and one delicacy that cannot be overlooked is Malai Peda. These small sweet treats are made from condensed milk flavored with cardamom.</div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stf21">
+                                <img src="https://www.lifeberrys.com/img/article/malai-peda-1-1589022267-lb.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stdivine">
+                    <div class="std1">
+                        <div class="stf11">
+                            <div class="std2">
+                                <div class="divinename">KASHI VISHWANATH TEMPLE</div>
+                                <div class="divinedes">Kashi Vishwanath Temple, located in Varanasi, is one of the most revered Hindu temples dedicated to Lord Shiva. It is one of the twelve Jyotirlingas and a major pilgrimage site, attracting millions of devotees each year.</div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="std21">
+                                <img src="https://e1.pxfuel.com/desktop-wallpaper/998/456/desktop-wallpaper-varanasi-here-s-a-glimpse-of-what-awaits-the-inaugural-of-the-kashi-vishwanath-corridor-in-kashi-vishwanath-thumbnail.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="std1">
+                        <div class="stf11 stf12">
+                            <div class="std2" >
+                                <div class="divinename">AYODHYA</div>
+                                <div class="divinedes">Ayodhya, a historic city in Uttar Pradesh, is revered as the birthplace of Lord Rama. It holds immense significance in Hindu mythology and is a major pilgrimage site, especially with the Ram Janmabhoomi temple. The city's ancient temples and vibrant spiritual atmosphere attract devotees and tourists alike.   </div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="std21">
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a21cfdc2-1c17-4887-8bc0-88de589c1859/dgr6y3p-b9bc0338-d0e6-4a80-8696-84a4f5496f2e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EyMWNmZGMyLTFjMTctNDg4Ny04YmMwLTg4ZGU1ODljMTg1OVwvZGdyNnkzcC1iOWJjMDMzOC1kMGU2LTRhODAtODY5Ni04NGE0ZjU0OTZmMmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.p-FN2Evv0ML_zcsz8FLRdW9UDHEroozouFiYgwQVWN4" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="std1">
+                        <div class="stf11" >
+                            <div class="std2" >
+                                <div class="divinename">KRISHNA TEMPLE</div>
+                                <div class="divinedes">Krishna temples, like the Banke Bihari Temple in Vrindavan, are dedicated to Lord Krishna and are significant pilgrimage sites for devotees. These temples often feature elaborate decorations and vibrant worship practices, celebrating the life and teachings of Krishna through festivals, prayers, and devotional songs.</div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="std21">
+                                <img src="https://t3.ftcdn.net/jpg/04/57/63/68/360_F_457636884_Zu1YzKsUZZmnMB4wxhLqGoSPMM3tRxCU.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="std1">
+                        <div class="stf11 stf12" >
+                            <div class="std2" >
+                                <div class="divinename">BARA IMAMBARA TEMPLE</div>
+                                <div class="divinedes">The Bara Imambara in Lucknow is a historic mosque and architectural marvel built by Nawab Asaf-ud-Daula in the 18th century.It is known for its grand central hall, one of the largest arched constructions without support beams.</div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="#">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="std21">
+                                <img src="https://4.bp.blogspot.com/-XHjRZdVTNKA/TvwoIYeQchI/AAAAAAAAAFk/1seBtwlkOVg/s1600/nir.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stfamous">
+                    <div class="stfa1">
+                        <div class="stf11">
+                            <div class="stfa2">
+                                <div class="famousname">TAJ MAHAL</div>
+                                <div class="famousdes">The Taj Mahal, located in Agra, is a magnificent white marble mausoleum built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal. It is considered one of the Seven Wonders of the World and a symbol of eternal love. </div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="./arunagbad.html">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stfa21">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwwYr855E5V5qnrmRA6LBRhMHxADzuUyMJEA&s" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stfa1">
+                        <div class="stf11 stf12">
+                            <div class="stfa2" >
+                                <div class="famousname">VARANASI</div>
+                                <div class="famousdes">Varanasi, one of the oldest continuously inhabited cities in the world, is a major spiritual center in India. Known for its sacred ghats along the Ganges River, it is a significant destination for Hindu pilgrims and a hub of cultural heritage. </div>
+                                    <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="./nagpur.html">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stfa21">
+                                <img src="https://e0.pxfuel.com/wallpapers/966/306/desktop-wallpaper-ganga-ghats-in-varanasi-background-ganga-river.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stfa1">
+                        <div class="stf11" >
+                            <div class="stfa2" >
+                                <div class="famousname">LUCKNOW CITY</div>
+                                <div class="famousdes">Lucknow, the capital city of Uttar Pradesh, is renowned for its rich cultural heritage, historic architecture, and delectable cuisine. The city is famous for its intricate Mughal and Awadhi structures, such as the Bara Imambara and Rumi Darwaza. Known as the "City of Nawabs," </div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="./pune.html">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stfa21">
+                                <img src="https://t4.ftcdn.net/jpg/05/13/77/31/360_F_513773104_G7Pin2bxWwpMAWqI5MIvrSnWDpYs80WN.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stfa1">
+                        <div class="stf11 stf12" >
+                            <div class="stfa2" >
+                                <div class="famousname">VRINDAVAN</div>
+                                <div class="famousdes">Vrindavan, a sacred town in Uttar Pradesh, is revered as the childhood home of Lord Krishna. It is known for its numerous temples, vibrant festivals like Janmashtami and Holi, and its spiritual ambiance, making it a significant pilgrimage site for Hindus.</div>
+                                     <div class="explore">
+                                        <a style="--clr: #7808d0" class="button1" href="./mumbai.html">
+                                            <span class="button__icon-wrapper">
+                                                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                                
+                                                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                                                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                                                </svg>
+                                            </span>
+                                            Explore All
+                                        </a>
+                                     </div>
+                            </div>
+                            <div class="stfa21">
+                                <img src="https://cdn.pixabay.com/photo/2020/01/21/08/11/indian-temple-4782312_1280.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src="./jammu.js"></script>
+    </body>
+    
+</html>

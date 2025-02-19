@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100svh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: linear-gradient(45deg, #E0EAFC, #CFDEF3, #a1c4fd, #c2e9fb);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .signup-container {
+            position: relative;
+            width: 450px;
+            height: 95%;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeIn 1s forwards, slideIn 1s forwards;
+        }
+
+        @media screen and (max-width: 460px) {
+            .signup-container {
+                width: 350px;
+            }
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .close {
+            width: 100%;
+            display: flex;
+            align-items: start;
+            justify-content: end;
+        }
+
+        .signup-head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 22px;
+        }
+
+        .signup-container h2 {
+            margin-bottom: 20px;
+            text-shadow: 0 0 20px black;
+        }
+
+        .signup-container label {
+            display: block;
+            text-align: left;
+            margin: 5px 40px;
+        }
+
+        .signup-container input {
+            width: 80%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+
+        .signup-container input:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 10px rgba(40, 167, 69, 0.5);
+        }
+
+        .signup-container button {
+            width: 30%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: 52%;
+            transition: background-color 0.3s;
+        }
+
+        .signup-container button:hover {
+            background-color: #218838;
+        }
+
+        #message {
+            margin-top: 20px;
+            color: #ff0000;
+        }
+
+        .loginx_close {
+            width: 8%;
+            height: 35px;
+            background-color: rgb(189, 7, 7);
+            color: black;
+            font-size: 26px;
+            border-top-right-radius: 8px;
+            border-bottom-left-radius: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .loginx_close:hover {
+            transform: rotate(90deg);
+            background-color: #ff4d4d;
+        }
+
+        .signup-button {
+            width: 50%;
+        }
+
+        .floating-circles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .circle {
+            position: absolute;
+            bottom: -150px;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 50%;
+            animation: floatUp 10s infinite linear;
+            opacity: 0.8;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(0) translateX(0);
+            }
+            100% {
+                transform: translateY(-1000px) translateX(300px);
+            }
+        }
+
+        .circle:nth-child(1) { left: 5%; animation-duration: 12s; animation-delay: 0s; }
+        .circle:nth-child(2) { left: 15%; animation-duration: 8s; animation-delay: 2s; }
+        .circle:nth-child(3) { left: 40%; animation-duration: 10s; animation-delay: 4s; }
+        .circle:nth-child(4) { left: 55%; animation-duration: 6s; animation-delay: 6s; }
+        .circle:nth-child(5) { left: 70%; animation-duration: 14s; animation-delay: 8s; }
+        .circle:nth-child(6) { left: 85%; animation-duration: 10s; animation-delay: 10s; }
+    </style>
+</head>
+<body>
+    <div class="floating-circles">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <div class="signup-container">
+        <div class="close"><div class="loginx_close" onclick="displayLogin()"><i class="fa-solid fa-xmark"></i></div></div>
+        <div class="signup-head"><h2>SIGNUP</h2></div>
+        <form id="signup-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">New Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="password">Confirm Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit" class="signup-button">Sign Up</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script>
+        document.getElementById('signup-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            const user = {
+                username: username,
+                email: email,
+                password: password
+            };
+
+            localStorage.setItem('user', JSON.stringify(user));
+
+            document.getElementById('message').textContent = 'Signup successful!';
+            document.getElementById('signup-form').reset();
+            console.log(user);
+        });
+
+        function displayLogin() {
+            window.location.href = "travelLogin.html";
+        }
+    </script>
+    <script src="./firstPage.js"></script>
+</body>
+</html>

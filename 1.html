@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick-1.8.1/slick/slick.css" />
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+        <link rel="stylesheet" href="./1.css" />
+        <!-- <link rel="stylesheet" href="./css/travelAnimation.css"> -->
+        
+        <style>
+            .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 0px solid #ccc;
+        border-radius: 4px;
+    }
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            <div class="a1">
+                <div class="a11">
+                    <div class="b"></div>
+                </div>
+                <div class="a12">
+                    <div id="b11">HOME</div>
+                    <div id="b12">ABOUT US</div>
+                    <div id="b13">SEASONS</div>
+                    <div id="b14">VLOGS</div>
+                    <div id="b14">CONTACT US</div>
+                </div>
+               
+                <div class="a13">
+                    <div class="b2" onclick="displayLogin()"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;LOGIN</div>
+                </div>
+            </div>
+            <div class="text-container" id="text-container">
+                <span class="reveal-text">TRAVEL TREK</span>
+            </div>
+            <div class="circle">
+                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSVrILM8hh5vdQy02XeQZCVjwx0EPUV_KgBsaBIurAJwqFHU8q29mlfjgIhbJgoreQlFc&usqp=CAU" alt=""> -->
+            </div>
+
+            <div class="sunM">
+                <div class="sun"></div>
+                <div class="lines">
+                    <div class="line" id="l1"></div>
+                    <div class="line" id="l2"></div>
+                    <div class="line" id="l3"></div>
+                    <div class="line" id="l4"></div>
+                    <div class="line" id="l5"></div>
+                    <div class="line" id="l6"></div>
+                    <div class="line" id="l7"></div>
+                    <div class="line" id="l8"></div>
+                    <div class="line" id="l9"></div>
+                    <div class="line" id="l10"></div>
+                    <div class="line" id="l11"></div>
+                    <div class="line" id="l12"></div>
+                </div></div>
+                <div class="Timg"><img src="https://cdni.iconscout.com/illustration/premium/thumb/man-finding-travel-location-4883910-4073665.png?f=webp" alt=""></div>
+        </div>
+        <script src="./firstPage.js"></script>
+        <script>document.addEventListener("DOMContentLoaded", function() {
+            const textContainer = document.getElementById('text-container');
+            const text = textContainer.innerText;
+            textContainer.innerHTML = '';
+        
+            const words = text.split(' ');
+            words.forEach((word, index) => {
+                const span = document.createElement('span');
+                span.classList.add('reveal-word');
+                span.style.animationDelay = ${index * 0.5}s; // Adjust the delay as needed
+                span.innerText = word + ' ';
+                textContainer.appendChild(span);
+           });
+        });
+        </script>
+    </body>
+</html>
